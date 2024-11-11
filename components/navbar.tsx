@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils'
 const navItems = [
     { href: '/travel', label: 'Travel & Lodging' },
     {
-        href: 'https://example-registration.com', // Replace with actual registration URL
+        href: 'https://book.passkey.com/e/50906985', // Updated with actual Hotel Roanoke booking link
         label: 'Registration',
         external: true
     },
@@ -27,7 +27,7 @@ export function Navbar() {
                     href={item.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-700 hover:text-gray-900 transition-colors font-medium inline-flex items-center gap-1"
+                    className="text-lg text-gray-700 hover:text-gray-900 transition-colors font-medium inline-flex items-center gap-1"
                 >
                     {item.label}
                     <ExternalLink size={14} />
@@ -50,7 +50,7 @@ export function Navbar() {
                 <div className="flex justify-between h-16">
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center">
-                            <span className="text-xl font-serif font-semibold text-gray-900">
+                            <span className="text-2xl font-serif font-semibold text-gray-900">
                                 SuperDARN 2025
                             </span>
                         </Link>
