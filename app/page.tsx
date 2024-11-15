@@ -42,26 +42,26 @@ export default function Home() {
   return (
     <div className="relative">
       {/* Hero Section */}
-      <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-to-b from-gray-50 to-white">
-        <div className="absolute inset-0 bg-grid-pattern opacity-5" />
+      <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-to-b from-[#861F41] to-[#6B1934] text-white">
+        <div className="absolute inset-0 bg-grid-pattern opacity-10" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-8">
-            <h1 className="text-5xl sm:text-6xl font-serif font-semibold text-gray-900">
+            <h1 className="text-5xl sm:text-6xl font-serif font-semibold">
               SuperDARN Workshop 2025
             </h1>
-            <p className="text-2xl sm:text-3xl text-gray-600 max-w-3xl mx-auto font-serif">
+            <p className="text-2xl sm:text-3xl text-white/90 max-w-3xl mx-auto font-serif">
               June 2-6, 2025 • Roanoke, Virginia, USA
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/registration"
-                className="bg-gray-900 text-white px-8 py-3 rounded hover:bg-gray-800 transition-colors text-lg"
+                className="bg-[#FF6600] text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
               >
                 Register Now
               </Link>
               <Link
                 href="/abstract"
-                className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded hover:bg-gray-50 transition-colors text-lg"
+                className="border-2 border-white text-white px-8 py-3 rounded hover:bg-white/10 transition-colors text-lg"
               >
                 Submit Abstract
               </Link>
@@ -76,10 +76,10 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-12">
             {features.map((feature, index) => (
               <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-gray-100 text-gray-900 mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-[#861F41] text-white mb-4">
                   {feature.icon}
                 </div>
-                <h3 className="text-2xl font-serif font-semibold mb-2">{feature.title}</h3>
+                <h3 className="text-2xl font-serif font-semibold mb-2 text-[#861F41]">{feature.title}</h3>
                 <p className="text-lg text-gray-600">{feature.description}</p>
               </div>
             ))}
@@ -106,18 +106,18 @@ export default function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gray-900 text-white">
+      <section className="py-20 bg-[#861F41] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-serif font-semibold mb-4">Registration Status</h2>
-          <p className="text-xl mb-8 text-gray-300">
-            Registration will open in December 2024 or January 2025. Please check back for updates or watch e-mail announcements.
+          <p className="text-xl mb-8 text-white/90">
+            Registration will open in December 2024 or January 2025.
           </p>
           <div className="space-y-4">
             <a
               href="https://book.passkey.com/e/50906985"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-white text-gray-900 px-8 py-3 rounded hover:bg-gray-100 transition-colors text-lg"
+              className="inline-block bg-[#FF6600] text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
             >
               Book Hotel Room
             </a>
