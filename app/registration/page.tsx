@@ -1,4 +1,4 @@
-import { CreditCard, Building2, FileCheck, Calendar, Check } from 'lucide-react'
+import { CreditCard, Building2, FileCheck, Check } from 'lucide-react'
 
 export default function RegistrationPage() {
     return (

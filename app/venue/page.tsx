@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { MapPin, Phone, Globe, Car, Train, Utensils } from 'lucide-react'
 
 export default function VenuePage() {
