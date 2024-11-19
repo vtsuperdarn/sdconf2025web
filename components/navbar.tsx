@@ -20,20 +20,21 @@ const navItems = [
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
 
+    // Function to close menu
+    const closeMenu = () => {
+        setIsOpen(false)
+    }
+
     return (
-        <nav className="sticky top-0 z-50 bg-[#861F41] text-white border-b border-white/10 shadow-lg">
+        <nav className="bg-white border-b sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <div className="flex items-center">
-                        <Link href="/" className="flex items-center">
-                            <span className="text-2xl font-serif font-semibold text-white">
-                                SuperDARN 2025
-                            </span>
+                        <Link href="/" onClick={closeMenu} className="text-xl font-serif font-semibold text-gray-900">
+                            SuperDARN 2025
                         </Link>
                     </div>
-
-                    {/* Desktop menu */}
-                    <div className="hidden md:flex md:items-center md:space-x-8">
+                    <div className="hidden md:flex md:items-center md:space-x-6">
                         {navItems.map((item) => (
                             <div key={item.href}>
                                 {item.external ? (
@@ -41,15 +42,15 @@ export function Navbar() {
                                         href={item.href}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-lg text-white/90 hover:text-white transition-colors font-medium inline-flex items-center gap-1"
+                                        className="inline-flex items-center text-gray-600 hover:text-gray-900"
                                     >
                                         {item.label}
-                                        <ExternalLink size={14} />
+                                        <ExternalLink className="ml-1 w-4 h-4" />
                                     </a>
                                 ) : (
                                     <Link
                                         href={item.href}
-                                        className="text-lg text-white/90 hover:text-white transition-colors font-medium"
+                                        className="text-gray-600 hover:text-gray-900"
                                     >
                                         {item.label}
                                     </Link>
@@ -57,44 +58,45 @@ export function Navbar() {
                             </div>
                         ))}
                     </div>
-
-                    {/* Mobile menu button */}
-                    <div className="flex items-center md:hidden">
+                    <div className="md:hidden flex items-center">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="text-gray-700 hover:text-gray-900 transition-colors"
-                            aria-label="Toggle menu"
+                            className="text-gray-600 hover:text-gray-900"
                         >
-                            {isOpen ? <X size={24} /> : <Menu size={24} />}
+                            {isOpen ? (
+                                <X className="h-6 w-6" />
+                            ) : (
+                                <Menu className="h-6 w-6" />
+                            )}
                         </button>
                     </div>
                 </div>
             </div>
 
             {/* Mobile menu */}
-            <div
-                className={cn(
-                    "md:hidden",
-                    isOpen ? "block" : "hidden"
-                )}
-            >
-                <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-b">
+            <div className={cn(
+                "md:hidden",
+                isOpen ? "block" : "hidden"
+            )}>
+                <div className="pt-2 pb-3 space-y-1">
                     {navItems.map((item) => (
-                        <div key={item.href} className="block px-3 py-2">
+                        <div key={item.href} className="px-4">
                             {item.external ? (
                                 <a
                                     href={item.href}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-lg text-gray-700 hover:text-gray-900 transition-colors font-medium inline-flex items-center gap-1"
+                                    onClick={closeMenu}
+                                    className="inline-flex items-center py-2 text-gray-600 hover:text-gray-900"
                                 >
                                     {item.label}
-                                    <ExternalLink size={14} />
+                                    <ExternalLink className="ml-1 w-4 h-4" />
                                 </a>
                             ) : (
                                 <Link
                                     href={item.href}
-                                    className="text-lg text-gray-700 hover:text-gray-900 transition-colors font-medium"
+                                    onClick={closeMenu}
+                                    className="block py-2 text-gray-600 hover:text-gray-900"
                                 >
                                     {item.label}
                                 </Link>
