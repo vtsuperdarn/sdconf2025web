@@ -20,17 +20,16 @@ const navItems = [
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
 
-    // Function to close menu
     const closeMenu = () => {
         setIsOpen(false)
     }
 
     return (
-        <nav className="bg-white border-b sticky top-0 z-50">
+        <nav className="bg-[#861F41] border-b border-[#6B1934] sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <div className="flex items-center">
-                        <Link href="/" onClick={closeMenu} className="text-xl font-serif font-semibold text-gray-900">
+                        <Link href="/" onClick={closeMenu} className="text-xl font-serif font-semibold text-white">
                             SuperDARN 2025
                         </Link>
                     </div>
@@ -42,7 +41,7 @@ export function Navbar() {
                                         href={item.href}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-flex items-center text-gray-600 hover:text-gray-900"
+                                        className="inline-flex items-center text-white/90 hover:text-white transition-colors"
                                     >
                                         {item.label}
                                         <ExternalLink className="ml-1 w-4 h-4" />
@@ -50,7 +49,7 @@ export function Navbar() {
                                 ) : (
                                     <Link
                                         href={item.href}
-                                        className="text-gray-600 hover:text-gray-900"
+                                        className="text-white/90 hover:text-white transition-colors"
                                     >
                                         {item.label}
                                     </Link>
@@ -61,7 +60,7 @@ export function Navbar() {
                     <div className="md:hidden flex items-center">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="text-gray-600 hover:text-gray-900"
+                            className="text-white/90 hover:text-white transition-colors"
                         >
                             {isOpen ? (
                                 <X className="h-6 w-6" />
@@ -75,7 +74,7 @@ export function Navbar() {
 
             {/* Mobile menu */}
             <div className={cn(
-                "md:hidden",
+                "md:hidden bg-[#861F41]",
                 isOpen ? "block" : "hidden"
             )}>
                 <div className="pt-2 pb-3 space-y-1">
@@ -87,7 +86,7 @@ export function Navbar() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     onClick={closeMenu}
-                                    className="inline-flex items-center py-2 text-gray-600 hover:text-gray-900"
+                                    className="inline-flex items-center py-2 text-white/90 hover:text-white transition-colors"
                                 >
                                     {item.label}
                                     <ExternalLink className="ml-1 w-4 h-4" />
@@ -96,7 +95,7 @@ export function Navbar() {
                                 <Link
                                     href={item.href}
                                     onClick={closeMenu}
-                                    className="block py-2 text-gray-600 hover:text-gray-900"
+                                    className="block py-2 text-white/90 hover:text-white transition-colors"
                                 >
                                     {item.label}
                                 </Link>
