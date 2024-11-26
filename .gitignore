@@ -43,3 +43,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Google Cloud credentials
+superdarn-workshop-2025-*.json
+*.json.key
+service-account.json

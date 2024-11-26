@@ -23,9 +23,17 @@ export default function Home() {
           <p className="text-xl md:text-2xl mb-2 drop-shadow-lg">
             June 2-6, 2025
           </p>
-          <p className="text-xl md:text-2xl drop-shadow-lg">
+          <p className="text-xl md:text-2xl mb-8 drop-shadow-lg">
             Roanoke, Virginia, USA
           </p>
+
+          {/* Live Updates Button */}
+          <Link
+            href="/live-updates"
+            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded text-white bg-red-600 hover:bg-red-700 transition-colors duration-150 ease-in-out"
+          >
+            Live Updates
+          </Link>
         </div>
       </div>
 

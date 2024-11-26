@@ -4,6 +4,16 @@ _Built and Written by [Seokhyeon Byun](https://www.seokhyeonbyun.com/)_
 
 A modern, responsive conference website built with Next.js for the SuperDARN 2025 Workshop in Roanoke, Virginia.
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Live Updates System](#live-updates-system)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Deployment Options](#deployment-options)
+
 ## Project Overview
 
 This website serves as the primary platform for the SuperDARN 2025 Workshop, providing information about:
@@ -26,21 +36,30 @@ This website serves as the primary platform for the SuperDARN 2025 Workshop, pro
   - Room assignments
   - Emergency notifications
 
+#### Components
+
+- **Google Sheet**: Stores the updates in a structured format
+- **Google Cloud API**: Provides secure access to the sheet data
+- **Next.js App**: Fetches and displays updates in real-time
+- **Refresh Button**: Triggers new data fetch on demand
+
+#### Important Notes
+
+- Make sure to copy the private key exactly as it appears in your JSON file
+- The sheet ID is from your Google Sheet URL
+- The service account email must have access to the sheet
+- Updates work through:
+  - Page load
+  - When refresh button is clicked
+  - Server revalidation (if configured)
+
 ### 2. Abstract Submission System (Coming Soon)
 
 - Online abstract submission form
-- Automatic validation and formatting
-- Review system for organizers
-- Status tracking for submitters
-- Export functionality for proceedings
 
 ### 3. Registration Management (Coming Soon)
 
 - Online registration process
-- Multiple ticket types support
-- Payment integration
-- Automatic confirmation emails
-- Participant management dashboard
 
 ### 4. Responsive Design
 
@@ -102,14 +121,14 @@ This website serves as the primary platform for the SuperDARN 2025 Workshop, pro
 │
 ├── public/
 │   ├── blue-ridge.png
-��   ├── hotel-roanoke.jpg
+│   ├── hotel-roanoke.jpg
 │   ├── vt-seal-white.png
 │   └── nsf-logo.png
 ```
 
 ## Understanding the Directory Structure
 
-### App Directory (Modern Next.js Routing)
+### App Directory (Modern NextJS Routing)
 
 Unlike traditional Flask routing where routes are defined in Python files (e.g., `@app.route('/about')`), Next.js uses a folder-based routing system:
 
@@ -337,7 +356,7 @@ The simplest way to deploy your Next.js app is using the [Vercel Platform](https
 
 Remember to replace environment variables and domain names with your actual values.
 
-## Live Updates System
+## Live Updates Feature Explanation
 
 The conference website uses Google Sheets as a lightweight CMS for real-time updates during the conference. This allows organizers to easily post announcements, schedule changes, and other updates without needing direct access to the codebase.
 
@@ -368,30 +387,34 @@ The conference website uses Google Sheets as a lightweight CMS for real-time upd
 
 The sheet should have the following columns:
 
-| Column    | Description                                       |
-| --------- | ------------------------------------------------- |
-| type      | Type of update (announcement/schedule_change/etc) |
-| title     | Update title                                      |
-| content   | Main content of the update                        |
-| timestamp | When the update was made                          |
-| active    | TRUE/FALSE to show/hide the update                |
+| Column    | Description                                                         |
+| --------- | ------------------------------------------------------------------- |
+| type      | Type of update (announcement/schedule_change/room_change/emergency) |
+| title     | Update title                                                        |
+| content   | Main content of the update                                          |
+| timestamp | When the update was made (e.g., "2024-03-15 14:30:00")              |
 
 ### For Conference Organizers
 
 To post updates during the conference:
 
 1. Open the shared Google Sheet
-2. Add a new row with your update
-3. Set 'active' to TRUE
-4. The website will automatically display your update
+2. Add a new row with your update:
+   - type: Choose from 'announcement', 'schedule_change', 'room_change', or 'emergency'
+   - title: Brief title for the update
+   - content: Full update message
+   - timestamp: Current date/time
+3. The website will automatically display your update
 
-Updates will appear on the website within a few minutes of being added to the sheet.
+Note: Updates will appear on the website:
 
-### Environment Variables Setup (Important!)
+- On page load
+- When the refresh button is clicked
+- After server revalidation
 
-⚠️ **Critical**: The Live Updates system will not function without proper environment variable configuration.
+### Environment Variables Setup
 
-The application requires three environment variables for Google Sheets integration:
+For the Live Updates system to work, you'll need these environment variables:
 
 ```env
 GOOGLE_SHEETS_PRIVATE_KEY="your-private-key"
