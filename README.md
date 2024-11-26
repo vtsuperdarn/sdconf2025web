@@ -232,19 +232,26 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ### Deploy on Vercel (Recommended)
 
-The simplest way to deploy your Next.js app is using the [Vercel Platform](https://vercel.com/new):
+The simplest way to deploy Next.js app is using the [Vercel Platform](https://vercel.com/new):
 
-1. Push your code to a Git repository (GitHub, GitLab, or Bitbucket)
-2. Import your repository on Vercel
+1. Push code to a Git repository (GitHub, GitLab, or Bitbucket)
+2. Import repository on Vercel
 3. Set up environment variables in Vercel:
    ```env
-   GOOGLE_SHEETS_PRIVATE_KEY="your-private-key"
-   GOOGLE_SHEETS_CLIENT_EMAIL="your-service-account-email"
    GOOGLE_SHEET_ID="your-sheet-id"
+   GOOGLE_CREDENTIALS={"type":"service_account","project_id":"...","private_key":"...","client_email":"..."}
    ```
+   Note: The `GOOGLE_CREDENTIALS` should be a single-line JSON string containing your service account credentials.
 4. Deploy
 
 The app will automatically deploy and update when you push changes to your repository.
+
+### Important Notes for Deployment
+
+- The `GOOGLE_CREDENTIALS` environment variable should be the entire service account JSON key formatted as a single line
+- Make sure to properly escape the private key's newlines in the JSON
+- The service account email must have access to your Google Sheet
+- The Sheet ID is from your Google Sheet URL: `https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit`
 
 ## Live Updates Feature Explanation
 
