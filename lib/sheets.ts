@@ -15,17 +15,27 @@ export async function getSheetData() {
     let auth;
     
     if (process.env.NODE_ENV === 'development') {
+      // In development, use the JSON credentials file
       const keyFilePath = path.join(process.cwd(), 'superdarn-workshop-2025-a0a3ff4dbfa8.json');
       auth = new google.auth.GoogleAuth({
         keyFile: keyFilePath,
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
       });
     } else {
-      // In production, only include required fields
+      // In production, match JSON file structure exactly
       const credentials = {
-        private_key: process.env.GOOGLE_SHEETS_PRIVATE_KEY!.replace(/\\n/g, '\n'),
+        type: 'service_account',
+        project_id: 'superdarn-workshop-2025',
+        private_key_id: 'a0a3ff4dbfa8',
+        private_key: process.env.GOOGLE_SHEETS_PRIVATE_KEY?.replace(/\\n/g, '\n'),
         client_email: process.env.GOOGLE_SHEETS_CLIENT_EMAIL,
-        type: 'service_account'
+        client_id: '117965931676517548001',
+        auth_uri: 'https://accounts.google.com/o/oauth2/auth',
+        token_uri: 'https://oauth2.googleapis.com/token',
+        auth_provider_x509_cert_url: 'https://www.googleapis.com/oauth2/v1/certs',
+        client_x509_cert_url: `https://www.googleapis.com/robot/v1/metadata/x509/${encodeURIComponent(
+          process.env.GOOGLE_SHEETS_CLIENT_EMAIL || ''
+        )}`
       };
 
       auth = new google.auth.GoogleAuth({
@@ -42,6 +52,7 @@ export async function getSheetData() {
     });
 
     const rows = response.data.values;
+    console.log('Fetched rows:', rows?.length || 0);
 
     if (!rows) return [];
 
