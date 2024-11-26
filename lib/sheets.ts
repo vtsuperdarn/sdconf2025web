@@ -16,19 +16,21 @@ export async function getSheetData() {
     let auth;
     
     if (process.env.NODE_ENV === 'development') {
-      // In development, use the JSON credentials file that is in .gitignore
+      // In development, use the JSON credentials file
       const keyFilePath = path.join(process.cwd(), 'superdarn-workshop-2025-a0a3ff4dbfa8.json');
       auth = new google.auth.GoogleAuth({
         keyFile: keyFilePath,
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
       });
     } else {
-      // In production, use environment variables
+      // In production, use environment variables with proper formatting
+      const credentials = {
+        client_email: process.env.GOOGLE_SHEETS_CLIENT_EMAIL,
+        private_key: process.env.GOOGLE_SHEETS_PRIVATE_KEY?.split(String.raw`\n`).join('\n')
+      };
+
       auth = new google.auth.GoogleAuth({
-        credentials: {
-          private_key: process.env.GOOGLE_SHEETS_PRIVATE_KEY?.replace(/\\n/g, '\n'),
-          client_email: process.env.GOOGLE_SHEETS_CLIENT_EMAIL
-        },
+        credentials,
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
       });
     }
