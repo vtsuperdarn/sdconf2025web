@@ -21,11 +21,16 @@ export async function getSheetData() {
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
       });
     } else {
+      const privateKey = process.env.GOOGLE_SHEETS_PRIVATE_KEY!
+        .split('\\n')
+        .join('\n')
+        .replace(/"/g, '');
+
       const credentials = {
         type: 'service_account',
         project_id: 'superdarn-workshop-2025',
         private_key_id: 'a0a3ff4dbfa8',
-        private_key: process.env.GOOGLE_SHEETS_PRIVATE_KEY?.replace(/\\n/g, '\n'),
+        private_key: privateKey,
         client_email: process.env.GOOGLE_SHEETS_CLIENT_EMAIL,
         client_id: '117965931676517548001',
         auth_uri: 'https://accounts.google.com/o/oauth2/auth',
@@ -38,15 +43,9 @@ export async function getSheetData() {
 
       auth = new google.auth.GoogleAuth({
         credentials,
-        scopes: [
-          'https://www.googleapis.com/auth/spreadsheets.readonly',
-          'https://www.googleapis.com/auth/drive.readonly'
-        ]
+        scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
       });
     }
-
-    console.log('Environment:', process.env.NODE_ENV);
-    console.log('Sheet ID:', process.env.GOOGLE_SHEET_ID);
 
     const sheets = google.sheets({ version: 'v4', auth });
     

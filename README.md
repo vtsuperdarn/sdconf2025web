@@ -230,13 +230,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deployment Options
 
-### 1. Deploy on Vercel (Recommended for Development)
+### Deploy on Vercel (Recommended)
 
 The simplest way to deploy your Next.js app is using the [Vercel Platform](https://vercel.com/new):
 
-1. Push your code to a Git repository (GitHub, GitLab, BitBucket)
+1. Push your code to a Git repository (GitHub, GitLab, or Bitbucket)
 2. Import your repository on Vercel
-3. Add environment variables in Vercel dashboard:
+3. Set up environment variables in Vercel:
    ```env
    GOOGLE_SHEETS_PRIVATE_KEY="your-private-key"
    GOOGLE_SHEETS_CLIENT_EMAIL="your-service-account-email"
@@ -244,117 +244,7 @@ The simplest way to deploy your Next.js app is using the [Vercel Platform](https
    ```
 4. Deploy
 
-### 2. Deploy on Linux Apache Server (Production)
-
-#### Prerequisites
-
-- Node.js (v18+)
-- npm
-- Apache2
-- PM2 (for process management)
-
-#### Step-by-Step Deployment
-
-1. **Prepare the Server**:
-
-   ```bash
-   # Install Node.js and npm (if not already installed)
-   curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-   sudo apt-get install -y nodejs
-
-   # Install PM2 globally
-   sudo npm install -g pm2
-   ```
-
-2. **Set up Apache**:
-
-   ```bash
-   sudo apt-get install apache2
-   sudo a2enmod proxy
-   sudo a2enmod proxy_http
-   ```
-
-3. **Configure Apache Virtual Host (Example)**:
-
-   ```apache
-   # /etc/apache2/sites-available/conference.conf
-   <VirtualHost *:80>
-       ServerName your-domain.com
-       DocumentRoot /var/www/conference
-
-       ProxyPass / http://localhost:3000/
-       ProxyPassReverse / http://localhost:3000/
-
-       # Environment variables
-       SetEnv GOOGLE_SHEETS_PRIVATE_KEY "your-private-key"
-       SetEnv GOOGLE_SHEETS_CLIENT_EMAIL "your-service-account-email"
-       SetEnv GOOGLE_SHEET_ID "your-sheet-id"
-
-       ErrorLog ${APACHE_LOG_DIR}/error.log
-       CustomLog ${APACHE_LOG_DIR}/access.log combined
-   </VirtualHost>
-   ```
-
-4. **Deploy Application**:
-
-   ```bash
-   # Create directory
-   sudo mkdir -p /var/www/conference
-   sudo chown -R $USER:$USER /var/www/conference
-
-   # Copy files
-   cp -r .next /var/www/conference/
-   cp package.json /var/www/conference/
-   cp next.config.js /var/www/conference/
-
-   # Install dependencies
-   cd /var/www/conference
-   npm install --production
-
-   # Start with PM2
-   pm2 start npm --name "conference" -- start
-   pm2 startup
-   pm2 save
-   ```
-
-5. **Enable Site and Restart Apache**:
-
-   ```bash
-   sudo a2ensite conference.conf
-   sudo systemctl restart apache2
-   ```
-
-6. **SSL Configuration (Recommended)**:
-   ```bash
-   sudo apt-get install certbot python3-certbot-apache
-   sudo certbot --apache -d your-domain.com
-   ```
-
-#### Maintenance
-
-- **View Logs**:
-
-  ```bash
-  pm2 logs conference
-  sudo tail -f /var/log/apache2/error.log
-  ```
-
-- **Update Application**:
-
-  ```bash
-  cd /var/www/conference
-  git pull  # if using git
-  npm run build
-  pm2 restart conference
-  ```
-
-- **Monitor Process**:
-  ```bash
-  pm2 status
-  pm2 monit
-  ```
-
-Remember to replace environment variables and domain names with your actual values.
+The app will automatically deploy and update when you push changes to your repository.
 
 ## Live Updates Feature Explanation
 
