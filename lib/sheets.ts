@@ -21,16 +21,15 @@ export async function getSheetData() {
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
       });
     } else {
-      const privateKey = process.env.GOOGLE_SHEETS_PRIVATE_KEY!
-        .replace(/\\n/g, '\n')
-        .replace(/^"/, '')
-        .replace(/"$/, '');
+      // In production, only include required fields
+      const credentials = {
+        private_key: process.env.GOOGLE_SHEETS_PRIVATE_KEY!.replace(/\\n/g, '\n'),
+        client_email: process.env.GOOGLE_SHEETS_CLIENT_EMAIL,
+        type: 'service_account'
+      };
 
       auth = new google.auth.GoogleAuth({
-        credentials: {
-          client_email: process.env.GOOGLE_SHEETS_CLIENT_EMAIL,
-          private_key: privateKey
-        },
+        credentials,
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
       });
     }
