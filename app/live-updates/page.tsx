@@ -1,5 +1,5 @@
 import { getSheetData, type ConferenceUpdate } from '@/lib/sheets'
-import { AlertCircle, Clock, CalendarDays, MapPin } from 'lucide-react'
+import { AlertCircle, Clock, MapPin } from 'lucide-react'
 import { RefreshButton } from '@/components/refresh-button'
 
 export default async function LiveUpdatesPage() {

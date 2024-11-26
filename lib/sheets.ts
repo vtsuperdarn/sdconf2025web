@@ -1,6 +1,5 @@
 import { google } from 'googleapis';
 import * as path from 'path';
-import * as fs from 'fs';
 
 export type UpdateType = 'announcement' | 'schedule_change' | 'room_change' | 'emergency';
 
@@ -16,17 +15,15 @@ export async function getSheetData() {
     let auth;
     
     if (process.env.NODE_ENV === 'development') {
-      // In development, use the JSON credentials file
       const keyFilePath = path.join(process.cwd(), 'superdarn-workshop-2025-a0a3ff4dbfa8.json');
       auth = new google.auth.GoogleAuth({
         keyFile: keyFilePath,
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
       });
     } else {
-      // In production, use environment variables with proper formatting
       const credentials = {
         client_email: process.env.GOOGLE_SHEETS_CLIENT_EMAIL,
-        private_key: process.env.GOOGLE_SHEETS_PRIVATE_KEY?.split(String.raw`\n`).join('\n')
+        private_key: process.env.GOOGLE_SHEETS_PRIVATE_KEY?.replace(/\\n/g, '\n').replace(/"/g, '')
       };
 
       auth = new google.auth.GoogleAuth({
