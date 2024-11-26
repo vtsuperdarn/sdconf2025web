@@ -1,5 +1,7 @@
 # SuperDARN 2025 Workshop Website
 
+_Built and Written by [Seokhyeon Byun](https://www.seokhyeonbyun.com/)_
+
 A modern, responsive conference website built with Next.js for the SuperDARN 2025 Workshop in Roanoke, Virginia.
 
 ## Project Overview
@@ -12,9 +14,57 @@ This website serves as the primary platform for the SuperDARN 2025 Workshop, pro
 - Travel information
 - Participant information
 
+## Features
+
+### 1. Real-Time Conference Updates
+
+- Live announcements and updates during the conference
+- Managed through Google Sheets (no technical knowledge required)
+- Types of updates supported:
+  - General announcements
+  - Schedule changes
+  - Room assignments
+  - Emergency notifications
+
+### 2. Abstract Submission System (Coming Soon)
+
+- Online abstract submission form
+- Automatic validation and formatting
+- Review system for organizers
+- Status tracking for submitters
+- Export functionality for proceedings
+
+### 3. Registration Management (Coming Soon)
+
+- Online registration process
+- Multiple ticket types support
+- Payment integration
+- Automatic confirmation emails
+- Participant management dashboard
+
+### 4. Responsive Design
+
+- Mobile-first approach
+- Adapts to all screen sizes
+- Optimized for both desktop and mobile devices
+
+### 5. Performance Optimized
+
+- Fast page loads
+- Optimized images
+- Efficient routing
+- Server-side rendering
+
+### 6. Content Management
+
+- Easy content updates via Google Sheets
+- No coding knowledge required
+- Real-time reflection of changes
+- Secure access control
+
 ## Tech Stack
 
-- **Framework**: Next.js 14 (React)
+- **Framework**: Next JS 15 (React)
 - **Language**: TypeScript
 - **Styling**: TailwindCSS
 - **UI Components**: Custom components with VT brand guidelines
@@ -52,7 +102,7 @@ This website serves as the primary platform for the SuperDARN 2025 Workshop, pro
 │
 ├── public/
 │   ├── blue-ridge.png
-│   ├── hotel-roanoke.jpg
+��   ├── hotel-roanoke.jpg
 │   ├── vt-seal-white.png
 │   └── nsf-logo.png
 ```
@@ -159,8 +209,277 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deployment Options
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 1. Deploy on Vercel (Recommended for Development)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The simplest way to deploy your Next.js app is using the [Vercel Platform](https://vercel.com/new):
+
+1. Push your code to a Git repository (GitHub, GitLab, BitBucket)
+2. Import your repository on Vercel
+3. Add environment variables in Vercel dashboard:
+   ```env
+   GOOGLE_SHEETS_PRIVATE_KEY="your-private-key"
+   GOOGLE_SHEETS_CLIENT_EMAIL="your-service-account-email"
+   GOOGLE_SHEET_ID="your-sheet-id"
+   ```
+4. Deploy
+
+### 2. Deploy on Linux Apache Server (Production)
+
+#### Prerequisites
+
+- Node.js (v18+)
+- npm
+- Apache2
+- PM2 (for process management)
+
+#### Step-by-Step Deployment
+
+1. **Prepare the Server**:
+
+   ```bash
+   # Install Node.js and npm (if not already installed)
+   curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+   sudo apt-get install -y nodejs
+
+   # Install PM2 globally
+   sudo npm install -g pm2
+   ```
+
+2. **Set up Apache**:
+
+   ```bash
+   sudo apt-get install apache2
+   sudo a2enmod proxy
+   sudo a2enmod proxy_http
+   ```
+
+3. **Configure Apache Virtual Host (Example)**:
+
+   ```apache
+   # /etc/apache2/sites-available/conference.conf
+   <VirtualHost *:80>
+       ServerName your-domain.com
+       DocumentRoot /var/www/conference
+
+       ProxyPass / http://localhost:3000/
+       ProxyPassReverse / http://localhost:3000/
+
+       # Environment variables
+       SetEnv GOOGLE_SHEETS_PRIVATE_KEY "your-private-key"
+       SetEnv GOOGLE_SHEETS_CLIENT_EMAIL "your-service-account-email"
+       SetEnv GOOGLE_SHEET_ID "your-sheet-id"
+
+       ErrorLog ${APACHE_LOG_DIR}/error.log
+       CustomLog ${APACHE_LOG_DIR}/access.log combined
+   </VirtualHost>
+   ```
+
+4. **Deploy Application**:
+
+   ```bash
+   # Create directory
+   sudo mkdir -p /var/www/conference
+   sudo chown -R $USER:$USER /var/www/conference
+
+   # Copy files
+   cp -r .next /var/www/conference/
+   cp package.json /var/www/conference/
+   cp next.config.js /var/www/conference/
+
+   # Install dependencies
+   cd /var/www/conference
+   npm install --production
+
+   # Start with PM2
+   pm2 start npm --name "conference" -- start
+   pm2 startup
+   pm2 save
+   ```
+
+5. **Enable Site and Restart Apache**:
+
+   ```bash
+   sudo a2ensite conference.conf
+   sudo systemctl restart apache2
+   ```
+
+6. **SSL Configuration (Recommended)**:
+   ```bash
+   sudo apt-get install certbot python3-certbot-apache
+   sudo certbot --apache -d your-domain.com
+   ```
+
+#### Maintenance
+
+- **View Logs**:
+
+  ```bash
+  pm2 logs conference
+  sudo tail -f /var/log/apache2/error.log
+  ```
+
+- **Update Application**:
+
+  ```bash
+  cd /var/www/conference
+  git pull  # if using git
+  npm run build
+  pm2 restart conference
+  ```
+
+- **Monitor Process**:
+  ```bash
+  pm2 status
+  pm2 monit
+  ```
+
+Remember to replace environment variables and domain names with your actual values.
+
+## Live Updates System
+
+The conference website uses Google Sheets as a lightweight CMS for real-time updates during the conference. This allows organizers to easily post announcements, schedule changes, and other updates without needing direct access to the codebase.
+
+### Setup Google Sheets Integration
+
+1. **Create Google Cloud Project**:
+
+   - Go to [Google Cloud Console](https://console.cloud.google.com)
+   - Create new project
+   - Enable Google Sheets API
+   - Create service account & download credentials
+
+2. **Create Google Sheet**:
+
+   - Create new sheet with columns: type, title, content, timestamp, active
+   - Share with service account email
+   - Copy Sheet ID from URL
+
+3. **Environment Variables**:
+   Copy `.env.example` to `.env.local` and fill in your credentials:
+   ```env
+   GOOGLE_SHEETS_PRIVATE_KEY="your-private-key"
+   GOOGLE_SHEETS_CLIENT_EMAIL="your-service-account-email"
+   GOOGLE_SHEET_ID="your-sheet-id"
+   ```
+
+### Google Sheet Structure
+
+The sheet should have the following columns:
+
+| Column    | Description                                       |
+| --------- | ------------------------------------------------- |
+| type      | Type of update (announcement/schedule_change/etc) |
+| title     | Update title                                      |
+| content   | Main content of the update                        |
+| timestamp | When the update was made                          |
+| active    | TRUE/FALSE to show/hide the update                |
+
+### For Conference Organizers
+
+To post updates during the conference:
+
+1. Open the shared Google Sheet
+2. Add a new row with your update
+3. Set 'active' to TRUE
+4. The website will automatically display your update
+
+Updates will appear on the website within a few minutes of being added to the sheet.
+
+### Environment Variables Setup (Important!)
+
+⚠️ **Critical**: The Live Updates system will not function without proper environment variable configuration.
+
+The application requires three environment variables for Google Sheets integration:
+
+```env
+GOOGLE_SHEETS_PRIVATE_KEY="your-private-key"
+GOOGLE_SHEETS_CLIENT_EMAIL="your-service-account-email"
+GOOGLE_SHEET_ID="your-sheet-id"
+```
+
+These variables must be set:
+
+- In `.env.development.local` for local development
+- In `.env.production` for production deployment
+- In your hosting platform's environment settings (if using Vercel)
+- In Apache configuration (if using Apache server)
+
+Without these variables properly configured, the live updates feature will not work, and the application may throw errors when trying to fetch updates.
+
+#### Need Help?
+
+If you're having trouble setting up the environment variables or implementing the live updates system, please contact:
+
+[Seokhyeon Byun](https://www.seokhyeonbyun.com/) - Project Developer
+
+### Getting Google Cloud Credentials
+
+1. **Create a Google Cloud Project**:
+
+   - Go to [Google Cloud Console](https://console.cloud.google.com)
+   - Click "New Project" in the top-right corner
+   - Enter a project name (e.g., "superdarn-2025-updates")
+   - Click "Create"
+
+2. **Enable Google Sheets API**:
+
+   - In the [API Library](https://console.cloud.google.com/apis/library)
+   - Search for "Google Sheets API"
+   - Click "Enable"
+
+3. **Create Service Account**:
+
+   - Go to [Credentials](https://console.cloud.google.com/apis/credentials)
+   - Click "Create Credentials" → "Service Account"
+   - Fill in:
+     - Service account name (e.g., "conference-updates")
+     - Service account ID (auto-generated)
+     - Click "Create and Continue"
+     - Role: "Editor"
+     - Click "Done"
+
+4. **Generate Private Key**:
+
+   - Find your service account in the list
+   - Click on the email address
+   - Go to "Keys" tab
+   - Click "Add Key" → "Create new key"
+   - Choose JSON format
+   - Click "Create"
+   - The key file will download automatically
+   - Keep this file secure!
+
+5. **Get Credentials from JSON**:
+
+   ```json
+   {
+     "type": "service_account",
+     "project_id": "your-project-id",
+     "private_key_id": "key-id",
+     "private_key": "-----BEGIN PRIVATE KEY-----\nYour-Key-Here\n-----END PRIVATE KEY-----\n",
+     "client_email": "service-account@project.iam.gserviceaccount.com",
+     "client_id": "client-id"
+     // ... other fields
+   }
+   ```
+
+   - Use `private_key` for GOOGLE_SHEETS_PRIVATE_KEY
+   - Use `client_email` for GOOGLE_SHEETS_CLIENT_EMAIL
+
+6. **Share Your Google Sheet**:
+   - Create a new Google Sheet
+   - Click "Share" in the top-right
+   - Add the `client_email` from your service account
+   - Give "Editor" access
+   - Copy the Sheet ID from the URL:
+     ```
+     https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit
+     ```
+   - Use this ID for GOOGLE_SHEET_ID
+
+For more detailed instructions, see:
+
+- [Google Cloud Console Documentation](https://cloud.google.com/docs)
+- [Google Sheets API Quickstart](https://developers.google.com/sheets/api/quickstart/nodejs)
