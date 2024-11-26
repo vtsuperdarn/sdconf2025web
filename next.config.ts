@@ -13,6 +13,26 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  webpack: (config) => {
+    config.experiments = {
+      ...config.experiments,
+      topLevelAwait: true,
+    }
+    return config
+  },
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'Permissions-Policy',
+            value: 'browsing-topics=(), private-state-token-redemption=(), private-state-token-issuance=()'
+          }
+        ]
+      }
+    ]
+  }
 };
 
 export default nextConfig;

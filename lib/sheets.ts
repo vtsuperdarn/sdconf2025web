@@ -15,14 +15,12 @@ export async function getSheetData() {
     let auth;
     
     if (process.env.NODE_ENV === 'development') {
-      // In development, use the JSON credentials file
       const keyFilePath = path.join(process.cwd(), 'superdarn-workshop-2025-a0a3ff4dbfa8.json');
       auth = new google.auth.GoogleAuth({
         keyFile: keyFilePath,
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
       });
     } else {
-      // In production, match JSON file structure exactly
       const credentials = {
         type: 'service_account',
         project_id: 'superdarn-workshop-2025',
@@ -40,9 +38,15 @@ export async function getSheetData() {
 
       auth = new google.auth.GoogleAuth({
         credentials,
-        scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
+        scopes: [
+          'https://www.googleapis.com/auth/spreadsheets.readonly',
+          'https://www.googleapis.com/auth/drive.readonly'
+        ]
       });
     }
+
+    console.log('Environment:', process.env.NODE_ENV);
+    console.log('Sheet ID:', process.env.GOOGLE_SHEET_ID);
 
     const sheets = google.sheets({ version: 'v4', auth });
     
@@ -65,6 +69,13 @@ export async function getSheetData() {
 
   } catch (err) {
     console.error('Error fetching sheet data:', err);
+    if (err instanceof Error) {
+      console.error('Error details:', {
+        message: err.message,
+        name: err.name,
+        stack: err.stack
+      });
+    }
     return [];
   }
 } 
