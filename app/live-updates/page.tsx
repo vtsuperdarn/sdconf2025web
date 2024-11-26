@@ -1,4 +1,4 @@
-import { getSheetData, type ConferenceUpdate } from '@/lib/sheets'
+import { getSheetData } from '@/lib/sheets'
 import { AlertCircle, Clock, MapPin } from 'lucide-react'
 import { RefreshButton } from '@/components/refresh-button'
 
