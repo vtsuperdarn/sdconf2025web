@@ -1,8 +1,11 @@
 import { getSheetData } from '@/lib/sheets'
 import { AlertCircle, Clock, MapPin } from 'lucide-react'
 import { RefreshButton } from '@/components/refresh-button'
+import { unstable_noStore as noStore } from 'next/cache'
 
 export default async function LiveUpdatesPage() {
+    // Disable caching
+    noStore()
     const updates = await getSheetData()
 
     // Helper function to get icon based on update type

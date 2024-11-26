@@ -43,13 +43,13 @@ export async function getSheetData() {
       });
     }
 
-    console.log('Auth created, Sheet ID:', sheetId); // Debug log
+    console.log('Auth created, Sheet ID:', sheetId);
 
     const sheets = google.sheets({ version: 'v4', auth });
     
     const response = await sheets.spreadsheets.values.get({
       spreadsheetId: sheetId,
-      range: 'Sheet1!A2:D',
+      range: 'Sheet1!A2:D',  // Simple range without timestamp
     });
 
     const rows = response.data.values;
