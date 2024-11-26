@@ -81,7 +81,7 @@ export default function AbstractPage() {
                         href="https://abstract-submission-system.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-gray-900 text-white px-8 py-3 rounded hover:bg-gray-800 transition-colors text-lg"
+                        className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-gray-800 transition-colors text-lg"
                     >
                         Submit Your Abstract
                     </a>

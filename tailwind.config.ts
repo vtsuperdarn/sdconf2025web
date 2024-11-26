@@ -49,7 +49,24 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+  			vt: {
+  				maroon: '#861F41',     // Chicago Maroon
+  				orange: '#FF6600',      // Burnt Orange
+  				burgundy: '#6B1924',    // Burgundy (darker maroon)
+  				brown: '#4A2C1C',       // Dark Brown
+  				// Secondary Colors
+  				gray: {
+  					light: '#E5E5E5',   // Light Gray
+  					medium: '#666666',   // Medium Gray
+  					dark: '#333333',     // Dark Gray
+  				},
+  				// Accent Colors
+  				blue: '#007DBA',        // Blue
+  				green: '#6FAB45',       // Green
+  				yellow: '#FDB813',      // Yellow
+  				red: '#CF4420',         // Red
+  			},
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

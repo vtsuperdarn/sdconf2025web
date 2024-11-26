@@ -25,8 +25,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`${sourceSans.variable} ${sourceSerif.variable} font-sans antialiased`}>
+    <html
+      lang="en"
+      className="scroll-smooth"
+      suppressHydrationWarning
+    >
+      <body
+        className={`${sourceSans.variable} ${sourceSerif.variable} font-sans antialiased`}
+        suppressHydrationWarning
+      >
         <div className="flex min-h-screen flex-col">
           <Navbar />
           <main className="flex-1">

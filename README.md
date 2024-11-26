@@ -1,12 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SuperDARN 2025 Workshop Website
 
-## Tech Stacks
+A modern, responsive conference website built with Next.js for the SuperDARN 2025 Workshop in Roanoke, Virginia.
 
-- Next JS 15 (with React)
-- Tyepscript
-- TailwindCSS
-- shadcn UI
-- CMS: Sanity
+## Project Overview
+
+This website serves as the primary platform for the SuperDARN 2025 Workshop, providing information about:
+
+- Conference venue and lodging
+- Registration details
+- Abstract submission
+- Travel information
+- Participant information
+
+## Tech Stack
+
+- **Framework**: Next.js 14 (React)
+- **Language**: TypeScript
+- **Styling**: TailwindCSS
+- **UI Components**: Custom components with VT brand guidelines
+- **Icons**: Lucide React
+
+## Project Structure
+
+```tree
+├── app/
+│   ├── abstract/
+│   │   └── page.tsx
+│   │
+│   ├── participants/
+│   │   └── page.tsx
+│   │
+│   ├── registration/
+│   │   └── page.tsx
+│   │
+│   ├── travel/
+│   │   └── page.tsx
+│   │
+│   ├── venue/
+│   │   └── page.tsx
+│   │
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── navbar.tsx
+│   └── footer.tsx
+│
+├── lib/
+│   └── utils.ts
+│
+├── public/
+│   ├── blue-ridge.png
+│   ├── hotel-roanoke.jpg
+│   ├── vt-seal-white.png
+│   └── nsf-logo.png
+```
+
+## Understanding the Directory Structure
+
+### App Directory (Modern Next.js Routing)
+
+Unlike traditional Flask routing where routes are defined in Python files (e.g., `@app.route('/about')`), Next.js uses a folder-based routing system:
+
+- Each folder in `app/` becomes a URL route
+- `page.tsx` files inside these folders define the content for that route
+- Example: `app/venue/page.tsx` automatically creates `/venue` route
+
+```
+app/
+├── venue/page.tsx      → accessible at /venue
+├── travel/page.tsx     → accessible at /travel
+├── abstract/page.tsx   → accessible at /abstract
+└── page.tsx           → accessible at / (homepage)
+```
+
+### Key Files and Directories
+
+- `layout.tsx`: Defines the common layout (navbar, footer) shared across all pages
+- `page.tsx`: The actual page content for each route
+- `globals.css`: Global styles applied to the entire application
+
+### Components Directory
+
+Contains reusable UI components that can be imported into any page:
+
+- Not route-based
+- Used for code organization and reusability
+- Example: `navbar.tsx` and `footer.tsx` are used in the layout
+
+### Public Directory
+
+Stores static assets that are:
+
+- Publicly accessible
+- Referenced directly in code
+- Example: `/public/vt-seal-white.png` is accessed as `/vt-seal-white.png` in the code
+
+### Comparison with Flask
+
+Flask:
+
+```python
+@app.route('/venue')
+def venue():
+    return render_template('venue.html')
+```
+
+Next.js:
+
+```
+app/venue/page.tsx → Automatically creates /venue route
+```
+
+This folder-based system:
+
+- Is more intuitive
+- Requires less configuration
+- Automatically handles routing
+- Better organizes related files
+
+## Navigation Flow
+
+```tree
+Homepage (/)
+│
+├── Venue & Lodging (/venue)
+│
+├── Register (/registration)
+│
+├── Submit Abstract (/abstract)
+│
+├── Participants (/participants)
+│
+└── Travel (/travel)
+```
 
 ## Getting Started
 

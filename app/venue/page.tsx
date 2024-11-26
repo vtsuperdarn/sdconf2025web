@@ -1,4 +1,5 @@
 import { MapPin, Phone, Globe, Car, Train, Utensils } from 'lucide-react'
+import Image from 'next/image'
 
 export default function VenuePage() {
     return (
@@ -57,13 +58,29 @@ export default function VenuePage() {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="mt-8">
+                                    <a
+                                        href="https://book.passkey.com/event/50906985/owner/9515698/home"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
+                                    >
+                                        Book Your Room
+                                    </a>
+                                    <p className="mt-4 text-sm text-gray-500">
+                                        Special conference rates available until May 15, 2025
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div className="relative h-[400px] rounded-lg overflow-hidden">
-                            {/* Replace with actual hotel image */}
-                            <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
-                                <p className="text-gray-500">Hotel Image Placeholder</p>
-                            </div>
+                            <Image
+                                src="/hotel-roanoke.jpg"
+                                alt="Hotel Roanoke & Conference Center"
+                                fill
+                                className="object-cover"
+                                priority
+                            />
                         </div>
                     </div>
                 </section>
