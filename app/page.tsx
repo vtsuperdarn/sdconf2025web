@@ -1,5 +1,11 @@
+"use client";
+
 import Image from 'next/image'
 import Link from 'next/link'
+
+const imageLoader = ({ src }: { src: string }) => {
+  return `/workshop/${src}`
+}
 
 export default function Home() {
   return (
@@ -7,7 +13,8 @@ export default function Home() {
       {/* Hero Section with Background Image */}
       <div className="relative h-[600px] flex items-center justify-center">
         <Image
-          src="/blue-ridge.png"
+          loader={imageLoader}
+          src= "blue-ridge.png"
           alt="Blue Ridge Mountains"
           fill
           className="object-cover"

@@ -24,7 +24,7 @@ export default function VenuePage() {
                             </h2>
                             <div className="prose max-w-none text-gray-600">
                                 <p className="mb-6">
-                                    A Tudor-style hotel that has been hosting visitors to Virginia's Blue Ridge Mountains
+                                    A Tudor-style hotel that has been hosting visitors to Virginia&aposs Blue Ridge Mountains
                                     since 1882. This historic hotel combines old-world charm with modern amenities and
                                     is perfectly suited for our international conference.
                                 </p>
