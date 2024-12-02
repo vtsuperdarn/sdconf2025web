@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   trailingSlash: true, //This makes it so that the url /workshop is the same as /workshop/
   output: "export",
   images: {
+    loader: 'default',
+    path: '/workshop/_next/image',
     remotePatterns: [
       {
         protocol: 'https',
