@@ -1,10 +1,10 @@
 "use client"
 
 import Link from 'next/link'
-import { Menu, X, ExternalLink } from 'lucide-react'
+import Image from 'next/image'
+import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import { cn } from '@/lib/utils'
-import Image from 'next/image'
 
 const navItems = [
     { href: '/venue', label: 'Venue & Lodging', external: false },
@@ -24,28 +24,24 @@ export function Navbar() {
     // Logo component to avoid repetition
     const LogoSection = () => (
         <div className="flex items-center space-x-8 px-4">
-            <Link href="https://vt.edu" target="_blank" rel="noopener noreferrer">
-                <Image
-                    src="/vt-seal-white.png"
-                    alt="Virginia Tech Seal"
-                    width={48}
-                    height={48}
-                    className="h-12 w-auto"
-                    loading="eager"
-                    quality={100}
-                />
-            </Link>
-            <Link href="https://nsf.gov" target="_blank" rel="noopener noreferrer">
-                <Image
-                    src="/nsf-logo.png"
-                    alt="NSF Logo"
-                    width={48}
-                    height={48}
-                    className="h-12 w-auto"
-                    loading="eager"
-                    quality={100}
-                />
-            </Link>
+            <Image
+                src="/vt-seal-white.png"
+                alt="Virginia Tech Seal"
+                width={48}
+                height={48}
+                className="h-12 w-auto"
+                loading="eager"
+                quality={100}
+            />
+            <Image
+                src="/nsf-logo.png"
+                alt="NSF Logo"
+                width={48}
+                height={48}
+                className="h-12 w-auto"
+                loading="eager"
+                quality={100}
+            />
         </div>
     )
 
@@ -55,7 +51,7 @@ export function Navbar() {
                 <div className="flex justify-between h-16">
                     {/* Desktop Left Logo */}
                     <div className="flex items-center">
-                        <Link href="https://vt.edu" target="_blank" rel="noopener noreferrer" className="mr-4 hidden md:block">
+                        <div className="mr-4 hidden md:block">
                             <Image
                                 src="/vt-seal-white.png"
                                 alt="Virginia Tech Seal"
@@ -65,7 +61,7 @@ export function Navbar() {
                                 loading="eager"
                                 quality={100}
                             />
-                        </Link>
+                        </div>
                         <Link href="/" onClick={closeMenu} className="text-xl font-serif font-semibold text-gray-900">
                             SuperDARN 2025
                         </Link>
@@ -80,10 +76,9 @@ export function Navbar() {
                                         href={item.href}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-flex items-center text-gray-600 hover:text-gray-900 transition-colors"
+                                        className="text-gray-600 hover:text-gray-900 transition-colors"
                                     >
                                         {item.label}
-                                        <ExternalLink className="ml-1 w-4 h-4" />
                                     </a>
                                 ) : (
                                     <Link
@@ -99,21 +94,19 @@ export function Navbar() {
 
                     {/* Desktop Right Logo */}
                     <div className="hidden md:flex md:items-center">
-                        <Link href="https://nsf.gov" target="_blank" rel="noopener noreferrer" className="ml-4">
-                            <Image
-                                src="/nsf-logo.png"
-                                alt="NSF Logo"
-                                width={48}
-                                height={48}
-                                className="h-12 w-auto"
-                                loading="eager"
-                                quality={100}
-                            />
-                        </Link>
+                        <Image
+                            src="/nsf-logo.png"
+                            alt="NSF Logo"
+                            width={48}
+                            height={48}
+                            className="h-12 w-auto ml-4"
+                            loading="eager"
+                            quality={100}
+                        />
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <div className="md:hidden flex items-center px-2">
+                    <div className="md:hidden flex items-center">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             className="text-gray-600 hover:text-gray-900 transition-colors"
@@ -135,7 +128,7 @@ export function Navbar() {
             )}>
                 <div className="pt-2 pb-6">
                     {/* Navigation Items */}
-                    <div className="space-y-1 px-4 pb-8">
+                    <div className="space-y-1 px-4">
                         {navItems.map((item) => (
                             <div key={item.href} className="py-2">
                                 {item.external ? (
@@ -144,10 +137,9 @@ export function Navbar() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         onClick={closeMenu}
-                                        className="inline-flex items-center text-gray-600 hover:text-gray-900 transition-colors"
+                                        className="text-gray-600 hover:text-gray-900 transition-colors"
                                     >
                                         {item.label}
-                                        <ExternalLink className="ml-1 w-4 h-4" />
                                     </a>
                                 ) : (
                                     <Link
@@ -162,7 +154,7 @@ export function Navbar() {
                         ))}
                     </div>
 
-                    {/* Mobile Logos at Bottom - Now Left Aligned */}
+                    {/* Mobile Logos at Bottom */}
                     <div className="border-t">
                         <div className="pt-6">
                             <LogoSection />
