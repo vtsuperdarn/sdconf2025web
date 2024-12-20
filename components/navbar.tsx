@@ -7,6 +7,7 @@ import { useState } from 'react'
 import { cn } from '@/lib/utils'
 
 const navItems = [
+    { href: '/', label: 'Home', external: false },
     { href: '/venue', label: 'Venue & Lodging', external: false },
     { href: '/registration', label: 'Register', external: false },
     { href: '/abstract', label: 'Submit Abstract', external: false },
@@ -21,46 +22,29 @@ export function Navbar() {
         setIsOpen(false)
     }
 
-    // Logo component to avoid repetition
-    const LogoSection = () => (
-        <div className="flex items-center space-x-8 px-4">
-            <Image
-                src="/vt-seal-white.png"
-                alt="Virginia Tech Seal"
-                width={48}
-                height={48}
-                className="h-12 w-auto"
-                loading="eager"
-                quality={100}
-            />
-            <Image
-                src="/nsf-logo.png"
-                alt="NSF Logo"
-                width={48}
-                height={48}
-                className="h-12 w-auto"
-                loading="eager"
-                quality={100}
-            />
-        </div>
-    )
-
     return (
         <nav className="bg-white border-b shadow-sm sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     {/* Desktop Left Logo */}
                     <div className="flex items-center">
-                        <div className="mr-4 hidden md:block">
-                            <Image
-                                src="/vt-seal-white.png"
-                                alt="Virginia Tech Seal"
-                                width={48}
-                                height={48}
-                                className="h-12 w-auto"
-                                loading="eager"
-                                quality={100}
-                            />
+                        <div className="mr-4 hidden md:block bg-white p-1 rounded">
+                            <a
+                                href="http://vt.superdarn.org/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:opacity-80 transition-opacity"
+                            >
+                                <Image
+                                    src="/images/vt-logo.png"
+                                    alt="Virginia Tech"
+                                    width={48}
+                                    height={48}
+                                    className="h-10 w-auto"
+                                    loading="eager"
+                                    quality={100}
+                                />
+                            </a>
                         </div>
                         <Link href="/" onClick={closeMenu} className="text-xl font-serif font-semibold text-gray-900">
                             SuperDARN 2025
@@ -94,15 +78,22 @@ export function Navbar() {
 
                     {/* Desktop Right Logo */}
                     <div className="hidden md:flex md:items-center">
-                        <Image
-                            src="/nsf-logo.png"
-                            alt="NSF Logo"
-                            width={48}
-                            height={48}
-                            className="h-12 w-auto ml-4"
-                            loading="eager"
-                            quality={100}
-                        />
+                        <a
+                            href="https://www.nsf.gov/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:opacity-80 transition-opacity"
+                        >
+                            <Image
+                                src="/images/nsf-logo.png"
+                                alt="NSF Logo"
+                                width={48}
+                                height={48}
+                                className="h-12 w-auto ml-4"
+                                loading="eager"
+                                quality={100}
+                            />
+                        </a>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -130,14 +121,14 @@ export function Navbar() {
                     {/* Navigation Items */}
                     <div className="space-y-1 px-4">
                         {navItems.map((item) => (
-                            <div key={item.href} className="py-2">
+                            <div key={item.href} className="py-3 px-2">
                                 {item.external ? (
                                     <a
                                         href={item.href}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         onClick={closeMenu}
-                                        className="text-gray-600 hover:text-gray-900 transition-colors"
+                                        className="block text-gray-600 hover:text-gray-900 transition-colors py-1"
                                     >
                                         {item.label}
                                     </a>
@@ -154,10 +145,41 @@ export function Navbar() {
                         ))}
                     </div>
 
-                    {/* Mobile Logos at Bottom */}
+                    {/* Mobile Logos */}
                     <div className="border-t">
-                        <div className="pt-6">
-                            <LogoSection />
+                        <div className="flex items-center space-x-8 px-4 pt-6">
+                            <a
+                                href="http://vt.superdarn.org/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:opacity-80 transition-opacity"
+                            >
+                                <Image
+                                    src="/images/vt-logo.png"
+                                    alt="Virginia Tech Logo"
+                                    width={48}
+                                    height={48}
+                                    className="h-8 sm:h-10 w-auto"
+                                    loading="eager"
+                                    quality={100}
+                                />
+                            </a>
+                            <a
+                                href="https://www.nsf.gov/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:opacity-80 transition-opacity"
+                            >
+                                <Image
+                                    src="/images/nsf-logo.png"
+                                    alt="NSF Logo"
+                                    width={48}
+                                    height={48}
+                                    className="h-10 w-auto"
+                                    loading="eager"
+                                    quality={100}
+                                />
+                            </a>
                         </div>
                     </div>
                 </div>

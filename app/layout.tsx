@@ -17,6 +17,11 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   title: "SuperDARN 2025 Conference",
   description: "International SuperDARN Workshop 2025",
+  icons: {
+    icon: [
+      { url: '/hd-favicon.png', type: 'image/png' }
+    ],
+  },
 };
 
 export default function RootLayout({

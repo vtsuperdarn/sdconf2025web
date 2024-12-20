@@ -2,7 +2,7 @@ export default function AbstractPage() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <div className="bg-gray-50 py-12">
+            <div className=" py-12">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-serif font-semibold text-gray-900 text-center">
                         Abstract Submission
@@ -12,6 +12,16 @@ export default function AbstractPage() {
 
             {/* Content */}
             <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                {/* Submission Status Notice */}
+                <div className="bg-amber-50 border border-amber-200 rounded-lg p-6 mb-12">
+                    <h2 className="text-xl font-serif font-semibold text-amber-800 mb-2">
+                        Abstract Submission Not Yet Open
+                    </h2>
+                    <p className="text-amber-700">
+                        Abstract submission will open on January 15, 2025. Please check back later.
+                    </p>
+                </div>
+
                 {/* Guidelines Section */}
                 <section className="mb-12">
                     <h2 className="text-2xl font-serif font-semibold text-gray-900 mb-6">
@@ -77,16 +87,14 @@ export default function AbstractPage() {
 
                 {/* Submit Button */}
                 <div className="text-center">
-                    <a
-                        href="https://abstract-submission-system.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-gray-800 transition-colors text-lg"
+                    <button
+                        disabled
+                        className="inline-block bg-gray-400 text-white px-8 py-3 rounded cursor-not-allowed opacity-75 text-lg"
                     >
                         Submit Your Abstract
-                    </a>
+                    </button>
                     <p className="mt-4 text-sm text-gray-500">
-                        You will be redirected to our abstract submission system
+                        Submission system will open on January 15, 2025
                     </p>
                 </div>
             </div>
