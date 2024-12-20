@@ -41,12 +41,6 @@ export function Hero() {
                 <p className="text-lg md:text-xl lg:text-2xl mb-8 drop-shadow-lg">
                     Roanoke, Virginia, USA
                 </p>
-                <Link
-                    href="/live-updates"
-                    className="hidden items-center px-6 py-3 border border-transparent text-base font-medium rounded text-white bg-red-600 hover:bg-red-700 transition-colors duration-150 ease-in-out"
-                >
-                    Live Updates
-                </Link>
             </div>
         </div>
     )
