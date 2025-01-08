@@ -85,8 +85,8 @@ export default function TravelPage() {
                                     <h3 className="font-serif font-semibold">By Air</h3>
                                 </div>
                                 <p className="text-gray-600">
-                                    Charlotte Douglas International Airport (CLT) is the recommended airport for international travelers.
-                                    Domestic travelers can also use Roanoke-Blacksburg Regional Airport (ROA), which is 15 minutes from the venue.
+				    The Roanoke-Blacksburg Regional Airport (ROA) is the closest to venue with a free shuttle to Hotel 
+				    Roanoke. Washington-Dulles (IAD) or Washington-Reagan (DCA) are the closest major airports, but require additional modes of travel (rail, car rental, etc.)
                                 </p>
                             </div>
                         </div>
