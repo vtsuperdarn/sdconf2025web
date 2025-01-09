@@ -16,20 +16,16 @@ export default function ParticipantsPage() {
                 <section className="mb-16">
                     <div className="grid md:grid-cols-4 gap-8">
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-4xl font-semibold text-gray-900 mb-2">127</div>
+                            <div className="text-4xl font-semibold text-gray-900 mb-2">3</div>
                             <div className="text-lg text-gray-600">Total Participants</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">28</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">1</div>
                             <div className="text-gray-600">Countries</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">45</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">1</div>
                             <div className="text-gray-600">Institutions</div>
-                        </div>
-                        <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">35</div>
-                            <div className="text-gray-600">Students</div>
                         </div>
                     </div>
                 </section>
@@ -43,8 +39,18 @@ export default function ParticipantsPage() {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
                             {/* This would be populated with actual participant data */}
                             <div className="p-4 border rounded-lg">
-                                <h3 className="text-xl font-semibold">Dr. Jane Smith</h3>
-                                <p className="text-lg text-gray-600">University of Example</p>
+                                <h3 className="text-xl font-semibold">Dr. Mike Ruohoniemi</h3>
+                                <p className="text-lg text-gray-600">Virginia Tech</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Jo Baker</h3>
+                                <p className="text-lg text-gray-600">Virginia Tech</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Bharat Kundri</h3>
+                                <p className="text-lg text-gray-600">Virginia Tech</p>
                                 <p className="text-base text-gray-500">United States</p>
                             </div>
                             {/* More participant cards would be added here */}
@@ -53,7 +59,7 @@ export default function ParticipantsPage() {
                 </section>
 
                 <p className="mt-8 text-sm text-gray-500 text-center">
-                    This list is updated in real-time as new participants register.
+                    This list is updated as new participants register.
                 </p>
             </div>
         </div>
