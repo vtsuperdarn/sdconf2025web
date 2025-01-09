@@ -18,7 +18,7 @@ export default function AbstractPage() {
                         Abstract Submission Not Yet Open
                     </h2>
                     <p className="text-amber-700">
-                        Abstract submission will open on January 15, 2025. Please check back later.
+                        Please check back later.
                     </p>
                 </div>
 
@@ -35,9 +35,7 @@ export default function AbstractPage() {
                         <div className="bg-gray-50 p-6 rounded-lg mb-6">
                             <h3 className="font-serif font-semibold mb-4">Key Dates</h3>
                             <ul className="space-y-2 text-gray-600">
-                                <li>• Abstract Submission Opens: January 15, 2025</li>
-                                <li>• Submission Deadline: March 1, 2025</li>
-                                <li>• Acceptance Notification: March 15, 2025</li>
+                                <li>• Submission Deadline: TBD</li>
                             </ul>
                         </div>
                     </div>
@@ -55,7 +53,6 @@ export default function AbstractPage() {
                             <li>Author list with affiliations</li>
                             <li>Abstract text (maximum 300 words)</li>
                             <li>Preference for oral or poster presentation</li>
-                            <li>Topic area selection</li>
                         </ul>
                     </div>
                 </section>
@@ -94,7 +91,7 @@ export default function AbstractPage() {
                         Submit Your Abstract
                     </button>
                     <p className="mt-4 text-sm text-gray-500">
-                        Submission system will open on January 15, 2025
+                        Submission system is not yet open.
                     </p>
                 </div>
             </div>
