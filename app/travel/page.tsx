@@ -106,8 +106,13 @@ export default function TravelPage() {
                                     <h3 className="font-serif font-semibold">By Train</h3>
                                 </div>
                                 <p className="text-gray-600">
-                                    Amtrak provides daily service to Roanoke from Washington DC and other major cities
-                                    along the Northeast corridor.
+                                    <a href="https://www.amtrak.com" target="_blank" rel="noopener noreferrer"
+                                    className="text-vt-maroon hover:text-vt-burgundy">Amtrak</a> 
+                                    provides daily service to Roanoke (RNK) from Washington DC's Union Station (WAS) and other major cities
+                                    along the Northeast corridor. Washington DC's Union Station connects to the Washington Dulles airport
+                                    through multiple service lines/tracks of the <a href="https://www.wmata.com/schedules/maps/" 
+                                    target="_blank" rel="noopener noreferrer" className="text-vt-maroon hover:text-vt-burgundy">
+                                    Washington Metropolitian Area Transit Authority</a> (commonly known as the Metro).
                                 </p>
                             </div>
                         </div>
@@ -130,8 +135,9 @@ export default function TravelPage() {
                                     Roanoke is easily accessible via Interstate 81 (I-81) and US-460. The Hotel Roanoke provides:
                                 </p>
                                 <ul className="mt-2 space-y-1 text-gray-600 list-disc list-inside">
-                                    <li>On-site parking for hotel guests</li>
-                                    <li>Valet parking service available</li>
+                                    <li>On-site parking for hotel guests (per day):</li>
+                                    <li>Self-parking overnight: $15</li>
+                                    <li>Valet Parking: $21</li>
                                     <li>Convenient downtown location</li>
                                 </ul>
                             </div>
