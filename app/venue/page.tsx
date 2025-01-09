@@ -24,7 +24,7 @@ export default function VenuePage() {
                             </h2>
                             <div className="prose max-w-none text-gray-600">
                                 <p className="mb-6">
-                                    A Tudor-style hotel that has been hosting visitors to Virginia&aposs Blue Ridge Mountains
+                                    A Tudor-style hotel that has been hosting visitors to Virginia's Blue Ridge Mountains
                                     since 1882. This historic hotel combines old-world charm with modern amenities and
                                     is perfectly suited for our international conference.
                                 </p>
@@ -126,18 +126,6 @@ export default function VenuePage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div className="bg-gray-50 p-8 rounded-lg">
                             <div className="flex items-center gap-3 mb-4">
-                                <Mountain className="w-6 h-6 text-vt-maroon" />
-                                <h3 className="font-serif font-semibold text-lg">Outdoor Activities</h3>
-                            </div>
-                            <ul className="text-gray-600 space-y-3">
-                                <li>• Blue Ridge Parkway scenic drives</li>
-                                <li>• McAfee Knob hiking trail</li>
-                                <li>• Carvins Cove Natural Reserve</li>
-                                <li>• Mill Mountain Star & Park</li>
-                            </ul>
-                        </div>
-                        <div className="bg-gray-50 p-8 rounded-lg">
-                            <div className="flex items-center gap-3 mb-4">
                                 <Landmark className="w-6 h-6 text-vt-maroon" />
                                 <h3 className="font-serif font-semibold text-lg">Arts & Culture</h3>
                             </div>
@@ -157,7 +145,19 @@ export default function VenuePage() {
                                 <li>• Historic Roanoke City Market</li>
                                 <li>• Local craft breweries</li>
                                 <li>• Downtown restaurant district</li>
-                                <li>• Multiple dining options within walking distance</li>
+                                <li>• Fine dining at Hotel Roanoke (reservations encouraged)</li>
+                            </ul>
+                        </div>
+                        <div className="bg-gray-50 p-8 rounded-lg">
+                            <div className="flex items-center gap-3 mb-4">
+                                <Mountain className="w-6 h-6 text-vt-maroon" />
+                                <h3 className="font-serif font-semibold text-lg">Outdoor Activities</h3>
+                            </div>
+                            <ul className="text-gray-600 space-y-3">
+                                <li>• Mill Mountain Star & Park</li>
+                                <li>• Blue Ridge Parkway scenic drives</li>
+                                <li>• McAfee Knob hiking trail</li>
+                                <li>• Carvins Cove Natural Reserve</li>
                             </ul>
                         </div>
                     </div>
