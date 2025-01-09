@@ -30,7 +30,7 @@ export default function RegistrationPage() {
                         <div className="flex justify-between items-center py-2 border-b border-grey-200">
                             <span className="text-grey-700 font-medium">Regular Rate (April 15, until May 15, 2025)</span>
                             <span className="font-bold text-vt-maroon text-lg">$600</span>
-                        </div>                        
+                        </div>
                     </div>
 
                     {/* 3 Day Registration */}
@@ -112,8 +112,8 @@ export default function RegistrationPage() {
                     <h2 className="text-2xl font-serif font-semibold mb-6">Registration Process Guide</h2>
                     <div>
                         <p className="text-grey-700">To assist with the registration process, please see this <a href="vt.superdarn.org"
-                                                        target="_blank" rel="noopener noreferrer"
-                                                        className="text-vt-maroon hover:text-vt-burgundy">guide</a>.
+                            target="_blank" rel="noopener noreferrer"
+                            className="text-vt-maroon hover:text-vt-burgundy">guide</a>.
                         </p>
                     </div>
                 </section>
@@ -130,7 +130,7 @@ export default function RegistrationPage() {
                     >
                         Register Here
                     </a>
-
+                </div>
             </div>
         </div>
     )
