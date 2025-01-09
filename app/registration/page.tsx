@@ -19,17 +19,21 @@ export default function RegistrationPage() {
                     <h2 className="text-2xl font-serif font-semibold mb-8">Registration Options</h2>
 
                     {/* 5 Day Full Registration */}
-                    <div className="mb-8">
+                    <div className="mb-10">
                         <h3 className="text-xl font-serif font-semibold mb-4 text-vt-maroon border-b pb-2">
                             5 Day Full Registration
                         </h3>
-                        <div className="flex justify-between items-center py-2 border-b border-grey-200">
-                            <span className="text-grey-700 font-medium">Early Bird Rate (until April 1, 2025)</span>
-                            <span className="font-bold text-vt-maroon text-lg">$500</span>
+                        <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
+                            <div className="flex justify-between items-center">
+                                <span className="text-gray-700 font-medium">Early Bird Rate (until April 1, 2025)</span>
+                                <span className="font-bold text-vt-maroon text-lg">$500</span>
+                            </div>
                         </div>
-                        <div className="flex justify-between items-center py-2 border-b border-grey-200">
-                            <span className="text-grey-700 font-medium">Regular Rate (April 15, until May 15, 2025)</span>
-                            <span className="font-bold text-vt-maroon text-lg">$600</span>
+                        <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
+                            <div className="flex justify-between items-center">
+                                <span className="text-gray-700 font-medium">Regular Rate (April 1 until May 15, 2025)</span>
+                                <span className="font-bold text-vt-maroon text-lg">$600</span>
+                            </div>
                         </div>
                     </div>
 
@@ -46,14 +50,20 @@ export default function RegistrationPage() {
                         </div>
                     </div>
 
-                    {/* 1 Day Registration */}
+                    {/* Companion Registration */}
                     <div className="mb-10">
                         <h3 className="text-xl font-serif font-semibold mb-4 text-vt-maroon border-b pb-2">
-                            1 Day Registration
+                            Companion Registration*
                         </h3>
                         <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
                             <div className="flex justify-between items-center">
-                                <span className="text-gray-700 font-medium">Regular Rate</span>
+                                <span className="text-gray-700 font-medium">5 Day Rate</span>
+                                <span className="font-bold text-vt-maroon text-lg">$250</span>
+                            </div>
+                        </div>
+                        <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
+                            <div className="flex justify-between items-center">
+                                <span className="text-gray-700 font-medium">3 Day Rate</span>
                                 <span className="font-bold text-vt-maroon text-lg">$175</span>
                             </div>
                         </div>
@@ -61,7 +71,7 @@ export default function RegistrationPage() {
 
 
                     <p className="text-sm text-gray-600 mt-6 bg-amber-50 p-4 rounded-lg border border-amber-200">
-                        * Pricing information will be announced soon. Student rates require valid student ID.
+                        * Companions not expected to attend scienitific meetings and presentations.
                     </p>
                 </section>
 
@@ -111,25 +121,26 @@ export default function RegistrationPage() {
                 <section className="bg-white rounded-lg shadow-md p-6 mb-8">
                     <h2 className="text-2xl font-serif font-semibold mb-6">Registration Process Guide</h2>
                     <div>
-                        <p className="text-grey-700">To assist with the registration process, please see this <a href="vt.superdarn.org"
+                        <p className="text-grey-700">To assist with the registration process, please see this <a href="https://vt.superdarn.org"
                             target="_blank" rel="noopener noreferrer"
                             className="text-vt-maroon hover:text-vt-burgundy">guide</a>.
                         </p>
                     </div>
                 </section>
 
-                <p className="mt-4 text-sm text-grey-500">
-                    Regrstation to open soon...
-                </p>
-                <div className="mt-8">
-                    <a
-                        href="vt.superdarn.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
-                    >
-                        Register Here
-                    </a>
+                {/* Registration Button */}
+                <div className="text-center">
+                    <p className="mt-4 text-sm text-grey-500">
+                        Registration to open soon...
+                    </p>
+                    <div className="mt-8">
+                        <button
+                            disabled
+                            className="inline-block bg-vt-maroon text-white px-8 py-3 rounded cursor-not-allowed opacity-75 text-lg"
+                        >
+                            Register Here
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
