@@ -156,8 +156,8 @@ export default function VenuePage() {
                             <ul className="text-gray-600 space-y-3">
                                 <li>• Mill Mountain Star & Park</li>
                                 <li>• Blue Ridge Parkway scenic drives</li>
-                                <li>• McAfee Knob hiking trail</li>
-                                <li>• Carvins Cove Natural Reserve</li>
+                                <li>• Explore Park (along Blue Ridge Parkway</li>
+                                <li>• Salem Red Sox Minor League Baseball</li>
                             </ul>
                         </div>
                     </div>
