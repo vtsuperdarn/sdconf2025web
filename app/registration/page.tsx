@@ -18,17 +18,19 @@ export default function RegistrationPage() {
                 <section className="bg-white rounded-lg shadow-md p-6 mb-8">
                     <h2 className="text-2xl font-serif font-semibold mb-8">Registration Options</h2>
 
-                    {/* 1 Day Registration */}
-                    <div className="mb-10">
+                    {/* 5 Day Full Registration */}
+                    <div className="mb-8">
                         <h3 className="text-xl font-serif font-semibold mb-4 text-vt-maroon border-b pb-2">
-                            1 Day Registration
+                            5 Day Full Registration
                         </h3>
-                        <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
-                            <div className="flex justify-between items-center">
-                                <span className="text-gray-700 font-medium">Regular Rate</span>
-                                <span className="font-bold text-vt-maroon text-lg">$???</span>
-                            </div>
+                        <div className="flex justify-between items-center py-2 border-b border-grey-200">
+                            <span className="text-grey-700 font-medium">Early Bird Rate (until April 1, 2025)</span>
+                            <span className="font-bold text-vt-maroon text-lg">$500</span>
                         </div>
+                        <div className="flex justify-between items-center py-2 border-b border-grey-200">
+                            <span className="text-grey-700 font-medium">Regular Rate (April 15, until May 15, 2025)</span>
+                            <span className="font-bold text-vt-maroon text-lg">$600</span>
+                        </div>                        
                     </div>
 
                     {/* 3 Day Registration */}
@@ -39,45 +41,24 @@ export default function RegistrationPage() {
                         <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
                             <div className="flex justify-between items-center">
                                 <span className="text-gray-700 font-medium">Regular Rate</span>
-                                <span className="font-bold text-vt-maroon text-lg">$???</span>
+                                <span className="font-bold text-vt-maroon text-lg">$375</span>
                             </div>
                         </div>
                     </div>
 
-                    {/* 5 Day Full Registration */}
-                    <div className="mb-8">
+                    {/* 1 Day Registration */}
+                    <div className="mb-10">
                         <h3 className="text-xl font-serif font-semibold mb-4 text-vt-maroon border-b pb-2">
-                            5 Day Full Registration
+                            1 Day Registration
                         </h3>
-                        <div className="space-y-6">
-                            <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
-                                <h4 className="font-semibold mb-4 text-gray-800">Early Bird (Until April 1, 2025)</h4>
-                                <div className="space-y-3">
-                                    <div className="flex justify-between items-center py-2 border-b border-gray-200">
-                                        <span className="text-gray-700 font-medium">Regular</span>
-                                        <span className="font-bold text-vt-maroon text-lg">$???</span>
-                                    </div>
-                                    <div className="flex justify-between items-center py-2">
-                                        <span className="text-gray-700 font-medium">Student</span>
-                                        <span className="font-bold text-vt-maroon text-lg">$???</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
-                                <h4 className="font-semibold mb-4 text-gray-800">Regular Rate (After April 1, 2025)</h4>
-                                <div className="space-y-3">
-                                    <div className="flex justify-between items-center py-2 border-b border-gray-200">
-                                        <span className="text-gray-700 font-medium">Regular</span>
-                                        <span className="font-bold text-vt-maroon text-lg">$???</span>
-                                    </div>
-                                    <div className="flex justify-between items-center py-2">
-                                        <span className="text-gray-700 font-medium">Student</span>
-                                        <span className="font-bold text-vt-maroon text-lg">$???</span>
-                                    </div>
-                                </div>
+                        <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
+                            <div className="flex justify-between items-center">
+                                <span className="text-gray-700 font-medium">Regular Rate</span>
+                                <span className="font-bold text-vt-maroon text-lg">$175</span>
                             </div>
                         </div>
                     </div>
+
 
                     <p className="text-sm text-gray-600 mt-6 bg-amber-50 p-4 rounded-lg border border-amber-200">
                         * Pricing information will be announced soon. Student rates require valid student ID.
@@ -105,7 +86,7 @@ export default function RegistrationPage() {
 
                 {/* Registration Includes */}
                 <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-                    <h2 className="text-2xl font-serif font-semibold mb-6">Registration Includes</h2>
+                    <h2 className="text-2xl font-serif font-semibold mb-6">Full Registration Includes</h2>
                     <ul className="space-y-3 text-lg">
                         <li className="flex items-center gap-2">
                             <Check className="w-5 h-5 text-vt-green" />
@@ -125,6 +106,31 @@ export default function RegistrationPage() {
                         </li>
                     </ul>
                 </section>
+
+                {/* Registration Guide */}
+                <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 className="text-2xl font-serif font-semibold mb-6">Registration Process Guide</h2>
+                    <div>
+                        <p className="text-grey-700">To assist with the registration process, please see this <a href="vt.superdarn.org"
+                                                        target="_blank" rel="noopener noreferrer"
+                                                        className="text-vt-maroon hover:text-vt-burgundy">guide</a>.
+                        </p>
+                    </div>
+                </section>
+
+                <p className="mt-4 text-sm text-grey-500">
+                    Regrstation to open soon...
+                </p>
+                <div className="mt-8">
+                    <a
+                        href="vt.superdarn.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
+                    >
+                        Register Here
+                    </a>
+
             </div>
         </div>
     )
