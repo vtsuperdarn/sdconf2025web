@@ -68,7 +68,7 @@ export default function VenuePage() {
                                         Book Your Room
                                     </a>
                                     <p className="mt-4 text-sm text-gray-500">
-                                        Special conference rates available until May 15, 2025
+                                        Special conference rates available until April 18, 2025
                                     </p>
                                 </div>
                             </div>
