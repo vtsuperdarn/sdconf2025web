@@ -87,10 +87,6 @@ export default function RegistrationPage() {
                             <Building2 className="w-5 h-5 text-vt-maroon" />
                             <span>Wire Transfer</span>
                         </div>
-                        <div className="flex items-center gap-2 bg-gray-50 p-4 rounded-lg">
-                            <FileCheck className="w-5 h-5 text-vt-maroon" />
-                            <span>Electronic Check</span>
-                        </div>
                     </div>
                 </section>
 
@@ -108,7 +104,7 @@ export default function RegistrationPage() {
                         </li>
                         <li className="flex items-center gap-2">
                             <Check className="w-5 h-5 text-vt-green" />
-                            Wednesday dinner
+                            Wednesday excursion and reception with dinner
                         </li>
                         <li className="flex items-center gap-2">
                             <Check className="w-5 h-5 text-vt-green" />
