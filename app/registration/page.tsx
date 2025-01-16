@@ -92,7 +92,7 @@ export default function RegistrationPage() {
 
                 {/* Full 5-day Registration Includes */}
                 <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-                    <h2 className="text-2xl font-serif font-semibold mb-6">Full Registration Includes</h2>
+                    <h2 className="text-2xl font-serif font-semibold mb-6">Full (5-day) Registration Includes</h2>
                     <ul className="space-y-3 text-lg">
                         <li className="flex items-center gap-2">
                             <Check className="w-5 h-5 text-vt-green" />
