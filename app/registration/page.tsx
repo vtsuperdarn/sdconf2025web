@@ -120,6 +120,10 @@ export default function RegistrationPage() {
                     <ul className="space-y-3 text-lg">
                         <li className="flex items-center gap-2">
                             <Check className="w-5 h-5 text-vt-green" />
+                            Sunday night welcome reception (if registered for Monday)
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <Check className="w-5 h-5 text-vt-green" />
                             Breakfast and lunch for dates of registration
                         </li>
                         <li className="flex items-center gap-2">
