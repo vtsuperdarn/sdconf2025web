@@ -120,7 +120,7 @@ export default function RegistrationPage() {
                     <ul className="space-y-3 text-lg">
                         <li className="flex items-center gap-2">
                             <Check className="w-5 h-5 text-vt-green" />
-                            Breakfast and lunch Tuesday through Thursday
+                            Breakfast and lunch for dates of registration
                         </li>
                         <li className="flex items-center gap-2">
                             <Check className="w-5 h-5 text-vt-green" />
@@ -128,7 +128,7 @@ export default function RegistrationPage() {
                         </li>
                         <li className="flex items-center gap-2">
                             <Check className="w-5 h-5 text-vt-green" />
-                            Thursday banquet
+                            Thursday banquet (if registered for Thursday)
                         </li>
                     </ul>
                 </section>
