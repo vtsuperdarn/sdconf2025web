@@ -90,7 +90,7 @@ export default function RegistrationPage() {
                     </div>
                 </section>
 
-                {/* Registration Includes */}
+                {/* Full 5-day Registration Includes */}
                 <section className="bg-white rounded-lg shadow-md p-6 mb-8">
                     <h2 className="text-2xl font-serif font-semibold mb-6">Full Registration Includes</h2>
                     <ul className="space-y-3 text-lg">
@@ -113,13 +113,32 @@ export default function RegistrationPage() {
                     </ul>
                 </section>
 
+
+                {/* 3-day Registration Includes */}
+                <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 className="text-2xl font-serif font-semibold mb-6">Mid-week (3-day) Registration Includes</h2>
+                    <ul className="space-y-3 text-lg">
+                        <li className="flex items-center gap-2">
+                            <Check className="w-5 h-5 text-vt-green" />
+                            Breakfast and lunch Tuesday through Thursday
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <Check className="w-5 h-5 text-vt-green" />
+                            Wednesday excursion and reception with dinner
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <Check className="w-5 h-5 text-vt-green" />
+                            Thursday banquet
+                        </li>
+                    </ul>
+                </section>
+
+
                 {/* Registration Guide */}
                 <section className="bg-white rounded-lg shadow-md p-6 mb-8">
                     <h2 className="text-2xl font-serif font-semibold mb-6">Registration Process Guide</h2>
                     <div>
-                        <p className="text-grey-700">To assist with the registration process, please see this <a href="https://vt.superdarn.org"
-                            target="_blank" rel="noopener noreferrer"
-                            className="text-vt-maroon hover:text-vt-burgundy">guide</a>.
+                        <p className="text-grey-700">To assist with the registration process, a guide will be provided shortly after registration opens.
                         </p>
                     </div>
                 </section>
