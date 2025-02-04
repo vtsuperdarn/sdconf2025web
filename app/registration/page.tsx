@@ -31,7 +31,7 @@ export default function RegistrationPage() {
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
                             <div className="flex justify-between items-center">
-                                <span className="text-gray-700 font-medium">Regular Rate (April 1 until May 15, 2025)</span>
+                                <span className="text-gray-700 font-medium">Regular Rate (April 1 until May 19, 2025)</span>
                                 <span className="font-bold text-vt-maroon text-lg">$600</span>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ export default function RegistrationPage() {
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
                             <div className="flex justify-between items-center">
-                                <span className="text-gray-700 font-medium">Regular Rate (April 1 until May 15, 2025)</span>
+                                <span className="text-gray-700 font-medium">Regular Rate (April 1 until May 19, 2025)</span>
                                 <span className="font-bold text-vt-maroon text-lg">$425</span>
                             </div>
                         </div>
