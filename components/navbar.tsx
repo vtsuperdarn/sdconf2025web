@@ -12,7 +12,8 @@ const navItems = [
     { href: '/registration', label: 'Register', external: false },
     { href: '/abstract', label: 'Submit Abstract', external: false },
     { href: '/participants', label: 'Participants', external: false },
-    { href: '/travel', label: 'Travel', external: false }
+    { href: '/travel', label: 'Travel', external: false },
+    { href: '/schedule', label: 'Schedule', external: false }
 ]
 
 export function Navbar() {
