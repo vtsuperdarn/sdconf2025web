@@ -16,10 +16,22 @@ export default function Home() {
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <h3 className="font-serif font-semibold mb-2">Abstract Submission</h3>
               <p className="text-gray-600">Opens: To be determined <br />Deadline: early May</p>
+              <Link
+                href="/abstract"
+                className="inline-block mt-2 text-sm text-primary hover:test-primary/80 transition-colors"
+              >
+                Learn More →
+              </Link>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <h3 className="font-serif font-semibold mb-2">Registration</h3>
-              <p className="text-gray-600">Opens: late January 2025</p>
+              <p className="text-gray-600">Opens: early Feb. 2025 <br />Closes: May 19, 2025</p>
+              <Link
+                href="/registration"
+                className="inline-block mt-2 text-sm text-primary hover:test-primary/80 transition-colors"
+              >
+                Learn More →
+              </Link>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <h3 className="font-serif font-semibold mb-2">Hotel Booking</h3>
