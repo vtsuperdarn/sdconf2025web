@@ -107,8 +107,8 @@ export default function TravelPage() {
                                 </div>
                                 <p className="text-gray-600">
                                     <a href="https://www.amtrak.com" target="_blank" rel="noopener noreferrer"
-                                    className="text-vt-maroon hover:text-vt-burgundy">Amtrak</a> 
-                                    provides daily service to Roanoke (RNK) from Washington DC's Union Station (WAS) and other major cities
+                                    className="text-vt-maroon hover:text-vt-burgundy">Amtrak</a> provides 
+                                    daily service to Roanoke (RNK) from Washington DC's Union Station (WAS) and other major cities
                                     along the Northeast corridor. Washington DC's Union Station connects to the Washington Dulles airport
                                     through multiple service lines/tracks of the <a href="https://www.wmata.com/schedules/maps/" 
                                     target="_blank" rel="noopener noreferrer" className="text-vt-maroon hover:text-vt-burgundy">
