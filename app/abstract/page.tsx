@@ -69,6 +69,8 @@ export default function AbstractPage() {
                                 <li>• Space Weather</li>
                                 <li>• Magnetosphere Dynamics</li>
                                 <li>• Technical Developments</li>
+                                <li>• Geomagnetic Modeling</li>
+                                <li>• Magnetosphere-Ionosphere Interactions</li>
                             </ul>
                         </div>
                         <div className="bg-gray-50 p-4 rounded-lg">
@@ -77,6 +79,7 @@ export default function AbstractPage() {
                                 <li>• Wave Phenomena</li>
                                 <li>• Radar Operations</li>
                                 <li>• Machine Learning Applications</li>
+                                <li>• Satellite-Ground Based Collaborations</li>
                             </ul>
                         </div>
                     </div>
