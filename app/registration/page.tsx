@@ -159,16 +159,15 @@ export default function RegistrationPage() {
 
                 {/* Registration Button */}
                 <div className="text-center">
-                    <p className="mt-4 text-sm text-grey-500">
-                        Registration to open soon...
-                    </p>
                     <div className="mt-8">
-                        <button
-                            disabled
-                            className="inline-block bg-vt-maroon text-white px-8 py-3 rounded cursor-not-allowed opacity-75 text-lg"
+                        <a
+                            href="https://register.cpe.vt.edu/search/publicCourseSearchDetails.do?method=load&courseId=7941341"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
                         >
                             Register Here
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
