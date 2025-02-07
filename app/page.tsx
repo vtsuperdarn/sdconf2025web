@@ -15,7 +15,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <h3 className="font-serif font-semibold mb-2">Abstract Submission</h3>
-              <p className="text-gray-600">Opens: To be determined <br />Deadline: early May</p>
+              <p className="text-gray-600">Opens: mid-Feb. 2025 <br />Deadline: May 2nd, 2025</p>
               <Link
                 href="/abstract"
                 className="inline-block mt-2 text-sm text-primary hover:test-primary/80 transition-colors"
@@ -25,12 +25,12 @@ export default function Home() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <h3 className="font-serif font-semibold mb-2">Registration</h3>
-              <p className="text-gray-600">Opens: early Feb. 2025 <br />Closes: May 19, 2025</p>
+              <p className="text-gray-600">Open now <br />Closes: May 19, 2025</p>
               <Link
                 href="/registration"
                 className="inline-block mt-2 text-sm text-primary hover:test-primary/80 transition-colors"
               >
-                Learn More →
+                Registration Info →
               </Link>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg text-center">

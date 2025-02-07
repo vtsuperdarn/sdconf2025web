@@ -35,7 +35,7 @@ export default function AbstractPage() {
                         <div className="bg-gray-50 p-6 rounded-lg mb-6">
                             <h3 className="font-serif font-semibold mb-4">Key Dates</h3>
                             <ul className="space-y-2 text-gray-600">
-                                <li>• Submission Deadline: TBD</li>
+                                <li>• Submission Deadline: May 2, 2025</li>
                             </ul>
                         </div>
                     </div>
