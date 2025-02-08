@@ -55,9 +55,9 @@ export default function TravelPage() {
                             <div>
                                 <h3 className="font-serif font-semibold mb-2">Invitation Letters</h3>
                                 <p className="text-gray-600">
-                                    If you need an invitation letter for your visa application, please register for the conference first.
-                                    After registration, you can request an invitation letter through your registration confirmation email.
-                                    Allow 8-12 weeks for visa processing.
+                                    If you need an invitation letter for your visa application, please e-mail the Workshop Organizing
+                                    Committee (sd-2025-g@vt.edu) with your CV attached to get processing started.  Allow 8-12 
+                                    weeks for visa processing.
                                 </p>
                             </div>
                         </div>
