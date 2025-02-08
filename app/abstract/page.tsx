@@ -49,10 +49,11 @@ export default function AbstractPage() {
                     <div className="space-y-6 text-gray-600">
                         <p>Abstracts should include:</p>
                         <ul className="list-disc list-inside space-y-2 pl-4">
-                            <li>Title (maximum 150 characters)</li>
                             <li>Author list with affiliations</li>
-                            <li>Abstract text (maximum 300 words)</li>
+                            <li>Presenting author</li>
                             <li>Preference for oral or poster presentation</li>
+                            <li>Title (maximum 150 characters)</li>
+                            <li>Abstract text (maximum 2000 characters)</li>
                         </ul>
                     </div>
                 </section>
