@@ -44,10 +44,10 @@ export default function Home() {
               </Link>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg text-center">
-              <h3 className="font-serif font-semibold mb-2">VISA Information</h3>
+              <h3 className="font-serif font-semibold mb-2">Visa Information</h3>
               <p className="text-gray-600">
                 Request Invitation Letter<br />
-                <span className="text-sm">Allow 8-12 weeks for processing</span>
+                <span className="text-sm font-bold">If needed, complete this as soon as possible.</span>
               </p>
               <Link
                 href="/travel#visa"
