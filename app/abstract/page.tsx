@@ -12,16 +12,6 @@ export default function AbstractPage() {
 
             {/* Content */}
             <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                {/* Submission Status Notice */}
-                <div className="bg-amber-50 border border-amber-200 rounded-lg p-6 mb-12">
-                    <h2 className="text-xl font-serif font-semibold text-amber-800 mb-2">
-                        Abstract Submission Not Yet Open
-                    </h2>
-                    <p className="text-amber-700">
-                        Please check back later.
-                    </p>
-                </div>
-
                 {/* Guidelines Section */}
                 <section className="mb-12">
                     <h2 className="text-2xl font-serif font-semibold text-gray-900 mb-6">
@@ -49,10 +39,10 @@ export default function AbstractPage() {
                     <div className="space-y-6 text-gray-600">
                         <p>Abstracts should include:</p>
                         <ul className="list-disc list-inside space-y-2 pl-4">
+                            <li>Title (maximum 150 characters)</li>
                             <li>Author list with affiliations</li>
                             <li>Presenting author</li>
                             <li>Preference for oral or poster presentation</li>
-                            <li>Title (maximum 150 characters)</li>
                             <li>Abstract text (maximum 2000 characters)</li>
                         </ul>
                     </div>
@@ -70,7 +60,7 @@ export default function AbstractPage() {
                                 <li>• Space Weather</li>
                                 <li>• Magnetosphere Dynamics</li>
                                 <li>• Technical Developments</li>
-                                <li>• Geomagnetic Modeling</li>
+                                <li>• Model-Data Comparison</li>
                                 <li>• Magnetosphere-Ionosphere Interactions</li>
                             </ul>
                         </div>
@@ -81,22 +71,24 @@ export default function AbstractPage() {
                                 <li>• Radar Operations</li>
                                 <li>• Machine Learning Applications</li>
                                 <li>• Satellite-Ground Based Collaborations</li>
+                                <li>• Atmospheric Processes</li>
                             </ul>
                         </div>
                     </div>
                 </section>
 
                 {/* Submit Button */}
-                <div className="text-center">
-                    <button
-                        disabled
-                        className="inline-block bg-gray-400 text-white px-8 py-3 rounded cursor-not-allowed opacity-75 text-lg"
-                    >
-                        Submit Your Abstract
-                    </button>
-                    <p className="mt-4 text-sm text-gray-500">
-                        Submission system is not yet open.
-                    </p>
+                <div className="text-center mt-8">
+                    <div className="mt-8">
+                        <a
+                            href="https://forms.office.com/Pages/ResponsePage.aspx?id=hGiVYK0Q-kCGPU8yweOjet_kBs-0RLdLhS6wKY9UInRUQUxROVZUWUpNV0hEOTQ4UTJUWEpDV01"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
+                        >
+                            Submit Your Abstract
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
