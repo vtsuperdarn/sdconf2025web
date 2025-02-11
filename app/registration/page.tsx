@@ -152,7 +152,11 @@ export default function RegistrationPage() {
                 <section className="bg-white rounded-lg shadow-md p-6 mb-8">
                     <h2 className="text-2xl font-serif font-semibold mb-6">Registration Process Guide</h2>
                     <div>
-                        <p className="text-grey-700">To assist with the registration process, a guide will be provided shortly after registration opens.
+                        <p className="text-grey-700">To assist with the registration process, please see <a
+                        href="https://virginiatech-my.sharepoint.com/:w:/g/personal/bharatr_vt_edu/ETU9ytIv6elKmyPxGDqQ_-kBJks6biT6FpRgjMS6Ifg5yQ?e=R1Ni8c"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><strong> this guide.</strong></a>
                         </p>
                     </div>
                 </section>
