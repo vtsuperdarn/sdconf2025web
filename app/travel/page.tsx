@@ -1,6 +1,10 @@
+"use client";
 import { Plane, Train, Car, Mountain, Coffee, Landmark, ShoppingBag, UtensilsCrossed, Bus, FileText } from 'lucide-react'
 import Image from 'next/image'
 
+const imageLoader = ({ src }: { src: string }) => {
+    return `/workshop/images/${src}`
+  }
 export default function TravelPage() {
     return (
         <div className="min-h-screen bg-white">
@@ -8,7 +12,8 @@ export default function TravelPage() {
             <div className="relative h-[400px] md:h-[600px] lg:h-[800px] overflow-hidden">
                 {/* Background Image */}
                 <Image
-                    src="/images/roanoke_night.png"
+                    loader={imageLoader}
+                    src="roanoke_night.png"
                     alt="Roanoke at Night"
                     fill
                     className="object-cover object-[center_35%]"
@@ -55,9 +60,9 @@ export default function TravelPage() {
                             <div>
                                 <h3 className="font-serif font-semibold mb-2">Invitation Letters</h3>
                                 <p className="text-gray-600">
-                                    If you need an invitation letter for your visa application, please register for the conference first.
-                                    After registration, you can request an invitation letter through your registration confirmation email.
-                                    Allow 8-12 weeks for visa processing.
+                                If you need an invitation letter for your visa application, please e-mail the Workshop Organizing
+                                Committee (sd-2025-g@vt.edu) with a copy of your CV. <strong>Please do this as soon as 
+                                possible. </strong> Registration can be completed after positive indication on your visa application.
                                 </p>
                             </div>
                         </div>
@@ -73,7 +78,8 @@ export default function TravelPage() {
                         <div className="bg-gray-50 rounded-lg overflow-hidden">
                             <div className="relative h-48">
                                 <Image
-                                    src="/images/clt-airport.png"
+                                    loader={imageLoader}
+                                    src="clt-airport.png"
                                     alt="Charlotte Douglas International Airport"
                                     fill
                                     className="object-cover"
@@ -94,7 +100,8 @@ export default function TravelPage() {
                         <div className="bg-gray-50 rounded-lg overflow-hidden">
                             <div className="relative h-48">
                                 <Image
-                                    src="/images/amtrak-station.png"
+                                    loader={imageLoader}
+                                    src="amtrak-station.png"
                                     alt="Roanoke Amtrak Station"
                                     fill
                                     className="object-cover"
@@ -107,8 +114,8 @@ export default function TravelPage() {
                                 </div>
                                 <p className="text-gray-600">
                                     <a href="https://www.amtrak.com" target="_blank" rel="noopener noreferrer"
-                                    className="text-vt-maroon hover:text-vt-burgundy">Amtrak</a> 
-                                    provides daily service to Roanoke (RNK) from Washington DC's Union Station (WAS) and other major cities
+                                    className="text-vt-maroon hover:text-vt-burgundy">Amtrak</a> provides 
+                                    daily service to Roanoke (RNK) from Washington DC's Union Station (WAS) and other major cities
                                     along the Northeast corridor. Washington DC's Union Station connects to the Washington Dulles airport
                                     through multiple service lines/tracks of the <a href="https://www.wmata.com/schedules/maps/" 
                                     target="_blank" rel="noopener noreferrer" className="text-vt-maroon hover:text-vt-burgundy">
@@ -120,7 +127,8 @@ export default function TravelPage() {
                         <div className="bg-gray-50 rounded-lg overflow-hidden">
                             <div className="relative h-48">
                                 <Image
-                                    src="/images/downtown-roanoke.png"
+                                    loader={imageLoader}
+                                    src="downtown-roanoke.png"
                                     alt="Downtown Roanoke"
                                     fill
                                     className="object-cover"

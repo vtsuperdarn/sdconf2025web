@@ -1,4 +1,4 @@
-import { CreditCard, Building2, FileCheck, Check } from 'lucide-react'
+import { CreditCard, Building2, FileCheck, Check, ReceiptText } from 'lucide-react'
 
 export default function RegistrationPage() {
     return (
@@ -93,6 +93,10 @@ export default function RegistrationPage() {
                             <Building2 className="w-5 h-5 text-vt-maroon" />
                             <span>Wire Transfer</span>
                         </div>
+                        <div className="flex items-center gap-2 bg-gray-50 p-4 rounded-lg">
+                            <ReceiptText className="w-5 h-5 text-vt-maroon" />
+                            <span>eCheck</span>
+                        </div>
                     </div>
                 </section>
 
@@ -148,23 +152,26 @@ export default function RegistrationPage() {
                 <section className="bg-white rounded-lg shadow-md p-6 mb-8">
                     <h2 className="text-2xl font-serif font-semibold mb-6">Registration Process Guide</h2>
                     <div>
-                        <p className="text-grey-700">To assist with the registration process, a guide will be provided shortly after registration opens.
+                    <p className="text-grey-700">To assist with the registration process, please see <a
+                        href="https://virginiatech-my.sharepoint.com/:w:/g/personal/bharatr_vt_edu/ETU9ytIv6elKmyPxGDqQ_-kBJks6biT6FpRgjMS6Ifg5yQ?e=R1Ni8c"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><strong> this guide.</strong></a>
                         </p>
                     </div>
                 </section>
 
                 {/* Registration Button */}
                 <div className="text-center">
-                    <p className="mt-4 text-sm text-grey-500">
-                        Registration to open soon...
-                    </p>
                     <div className="mt-8">
-                        <button
-                            disabled
-                            className="inline-block bg-vt-maroon text-white px-8 py-3 rounded cursor-not-allowed opacity-75 text-lg"
+                        <a
+                            href="https://register.cpe.vt.edu/search/publicCourseSearchDetails.do?method=load&courseId=7941341"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
                         >
                             Register Here
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

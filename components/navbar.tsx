@@ -6,6 +6,10 @@ import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import { cn } from '@/lib/utils'
 
+const imageLoader = ({ src }: { src: string }) => {
+    return `/workshop/images/${src}`
+  }
+
 const navItems = [
     { href: '/', label: 'Home', external: false },
     { href: '/venue', label: 'Venue & Lodging', external: false },
@@ -37,7 +41,8 @@ export function Navbar() {
                                 className="hover:opacity-80 transition-opacity"
                             >
                                 <Image
-                                    src="/images/vt-logo.png"
+                                    loader={imageLoader}
+                                    src="vt-logo.png"
                                     alt="Virginia Tech"
                                     width={48}
                                     height={48}
@@ -86,7 +91,8 @@ export function Navbar() {
                             className="hover:opacity-80 transition-opacity"
                         >
                             <Image
-                                src="/images/nsf-logo.png"
+                                loader={imageLoader}
+                                src="nsf-logo.png"
                                 alt="NSF Logo"
                                 width={48}
                                 height={48}
@@ -156,7 +162,8 @@ export function Navbar() {
                                 className="hover:opacity-80 transition-opacity"
                             >
                                 <Image
-                                    src="/images/vt-logo.png"
+                                    loader={imageLoader}
+                                    src="vt-logo.png"
                                     alt="Virginia Tech Logo"
                                     width={48}
                                     height={48}
@@ -172,6 +179,7 @@ export function Navbar() {
                                 className="hover:opacity-80 transition-opacity"
                             >
                                 <Image
+                                    loader={imageLoader}
                                     src="/images/nsf-logo.png"
                                     alt="NSF Logo"
                                     width={48}

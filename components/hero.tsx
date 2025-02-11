@@ -2,13 +2,17 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+const imageLoader = ({ src }: { src: string }) => {
+    return `/workshop/images/${src}`
+  }
 
 export function Hero() {
     return (
         <div className="relative h-[400px] md:h-[600px] lg:h-[800px] flex items-center justify-center">
             {/* Blue Ridge Mountains Background */}
             <Image
-                src="/images/blue-ridge2.png"
+                loader={imageLoader}
+                src="blue-ridge2.png"
                 alt="Blue Ridge Mountains"
                 fill
                 className="object-cover object-[center_35%]"

@@ -1,5 +1,10 @@
+"use client";
 import { MapPin, Phone, Globe, Car, Train, Utensils, Mountain, Coffee, Landmark, ShoppingBag, UtensilsCrossed } from 'lucide-react'
 import Image from 'next/image'
+
+const imageLoader = ({ src }: { src: string }) => {
+    return `/workshop/images/${src}`
+  }
 
 export default function VenuePage() {
     return (
@@ -75,7 +80,8 @@ export default function VenuePage() {
                         </div>
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
-                                src="/images/hotel-roanoke.jpg"
+                                loader={imageLoader}
+                                src="hotel-roanoke.jpg"
                                 alt="Hotel Roanoke & Conference Center"
                                 fill
                                 className="object-cover"

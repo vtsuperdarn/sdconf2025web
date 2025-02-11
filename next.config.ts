@@ -1,12 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: '',
-  assetPrefix: '',
+  basePath: '/workshop',
+  assetPrefix: '/workshop',
   trailingSlash: true,
   output: "export",
   images: {
-    unoptimized: true,
+    //unoptimized: true,
+    //loader: 'default',
+    //path: '/workshop/_next/image',
     remotePatterns: [
       {
         protocol: 'https',
