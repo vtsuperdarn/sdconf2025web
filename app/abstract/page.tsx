@@ -80,7 +80,7 @@ export default function AbstractPage() {
                 <div className="text-center mt-8">
                     <div className="mt-8">
                         <a
-                            href="https://forms.office.com/Pages/ResponsePage.aspx?id=hGiVYK0Q-kCGPU8yweOjet_kBs-0RLdLhS6wKY9UInRUQUxROVZUWUpNV0hEOTQ4UTJUWEpDV01"
+                            href="https://forms.office.com/r/CdqQTYkNxT"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
