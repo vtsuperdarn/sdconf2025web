@@ -59,19 +59,18 @@ export default function AbstractPage() {
                                 <li>• Ionospheric Physics</li>
                                 <li>• Space Weather</li>
                                 <li>• Magnetosphere Dynamics</li>
-                                <li>• Technical Developments</li>
-                                <li>• Model-Data Comparison</li>
-                                <li>• Magnetosphere-Ionosphere Interactions</li>
+                                <li>• Magnetosphere-Ionsphere Coupling</li>
+                                <li>• Eclipse Effects</li>
+                                <li>• Wave Phenomena</li>
                             </ul>
                         </div>
                         <div className="bg-gray-50 p-4 rounded-lg">
                             <ul className="space-y-2 text-gray-600">
-                                <li>• Data Analysis Techniques</li>
-                                <li>• Wave Phenomena</li>
-                                <li>• Radar Operations</li>
-                                <li>• Machine Learning Applications</li>
+                                <li>• Neutral Atmosphere Effects</li>
+                                <li>• Models and Data</li>
                                 <li>• Satellite-Ground Based Collaborations</li>
-                                <li>• Atmospheric Processes</li>
+                                <li>• Technical Developments and Operations</li>
+                                <li>• Analysis Techniques and Machine Learning</li>
                             </ul>
                         </div>
                     </div>
