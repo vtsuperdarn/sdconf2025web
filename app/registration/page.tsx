@@ -81,6 +81,28 @@ export default function RegistrationPage() {
                     </p>
                 </section>
 
+                {/* Fee Wavier */}
+                <section className="bg-amber-50 rounded-lg shadow-md p-6 mb-8">
+                    <h2 className="text-2xl font-serif font-semibold mb-6">Fee Waiver</h2>
+                     <div className="text-gray-600 space-y-4">
+                        <p>
+                        To encourage participation of studens and early-career researchers ( less than 5 years from PhD), limited funds are
+                        available to waive the cost of registration (Early bird rates: $500 for full, $375 for mid-week). The costs
+                        of traveling to the meeting and accommodation remain the responsibility of the attendee. Please fill 
+                        out <a target="_blank" rel="noopener noreferrer"
+                        href="https://forms.office.com/r/NwW6yp5jAL"> the form at https:forms.office.com/r/NwW6yp5jAL</a>.</p>
+                        <p>
+                        Note that an applicant needs to commit to making a presentation (oral or poster is TBD). The form will require 
+                        a working title for the presentation.  Optionally, the applicant can also submit a draft abstract and a 
+                        list of authors with affiliations.</p>
+                        <p>
+                        Review of the applications will begin <strong>March 1</strong> and decisions regarding support will be made 
+                        by <strong>March 15</strong> (note new dates).</p>
+                        <p>
+                        Questions may be directed to the Organizing Committee at sd-2025-g@vt.edu.</p>
+                    </div>
+                </section>
+
                 {/* Payment Methods */}
                 <section className="bg-white rounded-lg shadow-md p-6 mb-8">
                     <h2 className="text-2xl font-serif font-semibold mb-6">Payment Methods</h2>
