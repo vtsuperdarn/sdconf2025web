@@ -96,8 +96,8 @@ export default function RegistrationPage() {
                         a working title for the presentation.  Optionally, the applicant can also submit a draft abstract and a 
                         list of authors with affiliations.</p>
                         <p>
-                        Review of the applications will begin <strong>March 1</strong> and decisions regarding support will be made 
-                        by <strong>March 15</strong> (note new dates).</p>
+                        Review of the applications will begin <strong>March 1</strong> and decisions regarding support will begin to 
+                        be made on <strong>March 15</strong> (note new dates).</p>
                         <p>
                         Questions may be directed to the Organizing Committee at sd-2025-g@vt.edu.</p>
                     </div>
