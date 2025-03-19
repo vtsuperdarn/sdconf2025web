@@ -1,5 +1,5 @@
 "use client";
-import { Plane, Train, Car, Mountain, Coffee, Landmark, ShoppingBag, UtensilsCrossed, Bus, FileText } from 'lucide-react'
+import { Plane, Train, Car, Bus, FileText } from 'lucide-react'
 import Image from 'next/image'
 
 const imageLoader = ({ src }: { src: string }) => {

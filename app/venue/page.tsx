@@ -1,5 +1,5 @@
 "use client";
-import { MapPin, Phone, Globe, Car, Train, Utensils, Mountain, Coffee, Landmark, ShoppingBag, UtensilsCrossed } from 'lucide-react'
+import { MapPin, Phone, Globe, Mountain, Coffee, Landmark, ShoppingBag, UtensilsCrossed } from 'lucide-react'
 import Image from 'next/image'
 
 const imageLoader = ({ src }: { src: string }) => {
