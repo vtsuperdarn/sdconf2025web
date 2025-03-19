@@ -89,7 +89,7 @@ export default function ParticipantsPage() {
                 </section>
 
                 <p className="mt-8 text-sm text-gray-500 text-center">
-                    This list is updated as new participants register.
+                    This list is updated as new participants register. Updates are not automatic, so there may be some delay.
                 </p>
             </div>
         </div>
