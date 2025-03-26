@@ -24,7 +24,9 @@ export default function Home() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <h3 className="font-serif font-semibold mb-2">Registration</h3>
-              <p className="text-gray-600">Open now <br />Closes: May 19, 2025</p>              <Link
+              <p className="text-gray-600 font-bold">Early-registration ends:<br /> April 1, 2025</p>
+              <p className="text-gray-600">Open now <br />Closes: May 19, 2025</p>
+                <Link
                 href="/registration"
                 className="inline-block mt-2 text-sm text-primary hover:test-primary/80 transition-colors"
               >
