@@ -89,7 +89,7 @@ export default function ParticipantsPage() {
                                 <p className="text-base text-gray-500">Canada</p>
                             </div>
                             <div className="p-4 border rounded-lg">
-                                <h3 className="text-xl font-semibold">Mr. Draven Galschuk</h3>
+                                <h3 className="text-xl font-semibold">Mr. Draven Galeschuk</h3>
                                 <p className="text-lg text-gray-600">University of Saskatchewan</p>
                                 <p className="text-base text-gray-500">Canada</p>
                             </div>
@@ -104,7 +104,7 @@ export default function ParticipantsPage() {
                                 <p className="text-base text-gray-500">United Kingdom</p>
                             </div>
                             <div className="p-4 border rounded-lg">
-                                <h3 className="text-xl font-semibold">Postgraduate Studet Gamal Zayed</h3>
+                                <h3 className="text-xl font-semibold">Postgraduate Student Gamal Zayed</h3>
                                 <p className="text-lg text-gray-600">Virginia Tech</p>
                                 <p className="text-base text-gray-500">United States</p>
                             </div>
