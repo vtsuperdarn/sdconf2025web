@@ -14,17 +14,17 @@ export default function ParticipantsPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 {/* Statistics */}
                 <section className="mb-16">
-                    <div className="grid md:grid-cols-4 gap-8">
+                    <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-4xl font-semibold text-gray-900 mb-2">9</div>
+                            <div className="text-4xl font-semibold text-gray-900 mb-2">15</div>
                             <div className="text-lg text-gray-600">Total Participants</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">3</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">4</div>
                             <div className="text-gray-600">Countries</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">4</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">6</div>
                             <div className="text-gray-600">Institutions</div>
                         </div>
                     </div>
@@ -82,6 +82,36 @@ export default function ParticipantsPage() {
                                 <h3 className="text-xl font-semibold">Mr. Matthew Wilcox</h3>
                                 <p className="text-lg text-gray-600">Penn State University</p>
                                 <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Mr. Theodore Kolkman</h3>
+                                <p className="text-lg text-gray-600">University of Saskatchewan</p>
+                                <p className="text-base text-gray-500">Canada</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Mr. Draven Galschuk</h3>
+                                <p className="text-lg text-gray-600">University of Saskatchewan</p>
+                                <p className="text-base text-gray-500">Canada</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Prof. Larry Lyons</h3>
+                                <p className="text-lg text-gray-600">UCLA</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Gareth Chisham</h3>
+                                <p className="text-lg text-gray-600">British Antarctic Survey</p>
+                                <p className="text-base text-gray-500">United Kingdom</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Postgraduate Studet Gamal Zayed</h3>
+                                <p className="text-lg text-gray-600">Virginia Tech</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Prof. Glenn Hussey</h3>
+                                <p className="text-lg text-gray-600">University of Saskatchewan</p>
+                                <p className="text-base text-gray-500">Canada</p>
                             </div>
                             {/* More participant cards would be added here */}
                         </div>
