@@ -16,15 +16,15 @@ export default function ParticipantsPage() {
                 <section className="mb-16">
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-4xl font-semibold text-gray-900 mb-2">15</div>
+                            <div className="text-4xl font-semibold text-gray-900 mb-2">28</div>
                             <div className="text-lg text-gray-600">Total Participants</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">4</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">6</div>
                             <div className="text-gray-600">Countries</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">6</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">15</div>
                             <div className="text-gray-600">Institutions</div>
                         </div>
                     </div>
@@ -112,6 +112,71 @@ export default function ParticipantsPage() {
                                 <h3 className="text-xl font-semibold">Prof. Glenn Hussey</h3>
                                 <p className="text-lg text-gray-600">University of Saskatchewan</p>
                                 <p className="text-base text-gray-500">Canada</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Director Phil Erickson</h3>
+                                <p className="text-lg text-gray-600">MIT</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Mr. Neil Cobbett</h3>
+                                <p className="text-lg text-gray-600">British Antarctic Survey</p>
+                                <p className="text-base text-gray-500">United Kingdom</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Prof. William Bristow</h3>
+                                <p className="text-lg text-gray-600">Penn State</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Angeline Burrell</h3>
+                                <p className="text-lg text-gray-600">NRL</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Daniel Billett</h3>
+                                <p className="text-lg text-gray-600">University of Saskatchewan</p>
+                                <p className="text-base text-gray-500">Canada</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. David Sibeck</h3>
+                                <p className="text-lg text-gray-600">NASA/GSFC</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Nozomu Nishitani</h3>
+                                <p className="text-lg text-gray-600">ISEE Nagoya University</p>
+                                <p className="text-base text-gray-500">Japan</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Prof. Toshi Nishimura</h3>
+                                <p className="text-lg text-gray-600">Boston University</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Evan Thomas</h3>
+                                <p className="text-lg text-gray-600">Dartmouth College</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Prof. Gareth Perry</h3>
+                                <p className="text-lg text-gray-600">New Jersey Institue of Technology</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Prof. David Miller</h3>
+                                <p className="text-lg text-gray-600">Penn State</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">John Foster</h3>
+                                <p className="text-lg text-gray-600">MIT (Retired)</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Prof. Haris Haralmbous</h3>
+                                <p className="text-lg text-gray-600">Frederick Research Center</p>
+                                <p className="text-base text-gray-500">Cyprus</p>
                             </div>
                             {/* More participant cards would be added here */}
                         </div>
