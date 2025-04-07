@@ -25,8 +25,8 @@ export default function RegistrationPage() {
                         </h3>
                         <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
                             <div className="flex justify-between items-center">
-                                <span className="text-gray-700 font-medium">Early Bird Rate (ends April 4, 2025 23:59 EDT)</span>
-                                <span className="font-bold text-vt-maroon text-lg">$500</span>
+                                <span className="text-gray-700 font-medium line-through">Early Bird Rate (ends April 4, 2025 23:59 EDT)</span>
+                                <span className="font-bold text-vt-maroon text-lg line-through">$500</span>
                             </div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
@@ -44,8 +44,8 @@ export default function RegistrationPage() {
                         </h3>
                         <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
                             <div className="flex justify-between items-center">
-                                <span className="text-gray-700 font-medium">Early Bird Rate (ends April 4, 2025 23:59 EDT)</span>
-                                <span className="font-bold text-vt-maroon text-lg">$375</span>
+                                <span className="text-gray-700 font-medium line-through">Early Bird Rate (ends April 4, 2025 23:59 EDT)</span>
+                                <span className="font-bold text-vt-maroon text-lg line-through">$375</span>
                             </div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow h-full">
