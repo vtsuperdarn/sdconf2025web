@@ -16,7 +16,7 @@ export default function ParticipantsPage() {
                 <section className="mb-16">
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-4xl font-semibold text-gray-900 mb-2">28</div>
+                            <div className="text-4xl font-semibold text-gray-900 mb-2">33</div>
                             <div className="text-lg text-gray-600">Total Participants</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
@@ -24,7 +24,7 @@ export default function ParticipantsPage() {
                             <div className="text-gray-600">Countries</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">15</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">18</div>
                             <div className="text-gray-600">Institutions</div>
                         </div>
                     </div>
@@ -177,6 +177,31 @@ export default function ParticipantsPage() {
                                 <h3 className="text-xl font-semibold">Prof. Haris Haralmbous</h3>
                                 <p className="text-lg text-gray-600">Frederick Research Center</p>
                                 <p className="text-base text-gray-500">Cyprus</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Katarzyna Beser</h3>
+                                <p className="text-lg text-gray-600">New Jersey Institute of Technology</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Riley Troyer</h3>
+                                <p className="text-lg text-gray-600">Space Dynamics Laboratory</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Viacheslav Merkin</h3>
+                                <p className="text-lg text-gray-600">Johns Hopkins University/Applied Physics Lab</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Todd Anderson</h3>
+                                <p className="text-lg text-gray-600">Los Alamos National Laboratory</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">David Flores</h3>
+                                <p className="text-lg text-gray-600">Penn State University</p>
+                                <p className="text-base text-gray-500">United States</p>
                             </div>
                             {/* More participant cards would be added here */}
                         </div>
