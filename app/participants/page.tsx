@@ -16,7 +16,7 @@ export default function ParticipantsPage() {
                 <section className="mb-16">
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-4xl font-semibold text-gray-900 mb-2">34</div>
+                            <div className="text-4xl font-semibold text-gray-900 mb-2">35</div>
                             <div className="text-lg text-gray-600">Total Participants</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
@@ -24,7 +24,7 @@ export default function ParticipantsPage() {
                             <div className="text-gray-600">Countries</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">19</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">20</div>
                             <div className="text-gray-600">Institutions</div>
                         </div>
                     </div>
@@ -207,6 +207,11 @@ export default function ParticipantsPage() {
                                 <h3 className="text-xl font-semibold">Mr. Dirk Jacobus va Wyk</h3>
                                 <p className="text-lg text-gray-600">South Africian National Space Agency</p>
                                 <p className="text-base text-gray-500">South Africa</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Nathaniel Frissell</h3>
+                                <p className="text-lg text-gray-600">University of Scranton</p>
+                                <p className="text-base text-gray-500">United States</p>
                             </div>
                             {/* More participant cards would be added here */}
                         </div>
