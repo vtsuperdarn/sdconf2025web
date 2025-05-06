@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <h3 className="font-serif font-semibold mb-2">Hotel Booking</h3>
-              <p className="text-gray-600">Available Now<br />Special Rate Until April 24, 2025<br />11:59pm Eastern US (UTC-4)</p>
+              <p className="text-gray-600">Available Now<br />Special Rate until May 8, 2025<br />11:59pm Eastern US (UTC-4)</p>
               <Link
                 href="/venue"
                 className="inline-block mt-2 text-sm text-primary hover:text-primary/80 transition-colors"
