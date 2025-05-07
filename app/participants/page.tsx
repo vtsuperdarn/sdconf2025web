@@ -16,7 +16,7 @@ export default function ParticipantsPage() {
                 <section className="mb-16">
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-4xl font-semibold text-gray-900 mb-2">39</div>
+                            <div className="text-4xl font-semibold text-gray-900 mb-2">42</div>
                             <div className="text-lg text-gray-600">Total Participants</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
@@ -24,7 +24,7 @@ export default function ParticipantsPage() {
                             <div className="text-gray-600">Countries</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">21</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">23</div>
                             <div className="text-gray-600">Institutions</div>
                         </div>
                     </div>
@@ -232,6 +232,21 @@ export default function ParticipantsPage() {
                                 <h3 className="text-xl font-semibold">Maj Daniel Emmons, PhD</h3>
                                 <p className="text-lg text-gray-600">Air Force Institute of Technology</p>
                                 <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Connor Stanton</h3>
+                                <p className="text-lg text-gray-600">Fort Hays State University</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Bea Gallardo-Lacourt</h3>
+                                <p className="text-lg text-gray-600">NASA/CUA</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Jingyuan Feng</h3>
+                                <p className="text-lg text-gray-600">Wuhan University</p>
+                                <p className="text-base text-gray-500">China</p>
                             </div>
                             {/* More participant cards would be added here */}
                         </div>
