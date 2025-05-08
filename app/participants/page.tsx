@@ -174,7 +174,7 @@ export default function ParticipantsPage() {
                                 <p className="text-base text-gray-500">United States</p>
                             </div>
                             <div className="p-4 border rounded-lg">
-                                <h3 className="text-xl font-semibold">Prof. Haris Haralmbous</h3>
+                                <h3 className="text-xl font-semibold">Prof. Haris Haralambous</h3>
                                 <p className="text-lg text-gray-600">Frederick Research Center</p>
                                 <p className="text-base text-gray-500">Cyprus</p>
                             </div>
