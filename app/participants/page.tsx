@@ -16,7 +16,7 @@ export default function ParticipantsPage() {
                 <section className="mb-16">
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-4xl font-semibold text-gray-900 mb-2">42</div>
+                            <div className="text-4xl font-semibold text-gray-900 mb-2">43</div>
                             <div className="text-lg text-gray-600">Total Participants</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
@@ -246,6 +246,11 @@ export default function ParticipantsPage() {
                             <div className="p-4 border rounded-lg">
                                 <h3 className="text-xl font-semibold">Jingyuan Feng</h3>
                                 <p className="text-lg text-gray-600">Wuhan University</p>
+                                <p className="text-base text-gray-500">China</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Wei Wang</h3>
+                                <p className="text-lg text-gray-600">National Space Science Center China</p>
                                 <p className="text-base text-gray-500">China</p>
                             </div>
                             {/* More participant cards would be added here */}
