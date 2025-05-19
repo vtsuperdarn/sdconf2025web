@@ -10,6 +10,13 @@ export default function AbstractPage() {
                 </div>
             </div>
 
+            <div className="text-center text-4xl">
+                <p className="text-vt-maroon font-serif">
+                    Abstract submission is now closed
+                </p>
+            </div>
+
+
             {/* Content */}
             <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 {/* Guidelines Section */}
@@ -24,7 +31,7 @@ export default function AbstractPage() {
                         </p>
                         <div className="bg-gray-50 p-6 rounded-lg mb-6">
                             <h3 className="font-serif font-semibold mb-4">Key Dates</h3>
-                            <ul className="space-y-2 text-gray-600">
+                            <ul className="space-y-2 text-gray-600 line-through">
                                 <li>• Submission Deadline: May 18, 2025 11:59pm EDT (UTC-4)</li>
                             </ul>
                         </div>
@@ -78,16 +85,12 @@ export default function AbstractPage() {
 
                 {/* Submit Button */}
                 <div className="text-center mt-8">
-                    <div className="mt-8">
-                        <a
-                            href="https://forms.office.com/r/CdqQTYkNxT"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
-                        >
-                            Submit Your Abstract
-                        </a>
-                    </div>
+                    <button
+                        disabled
+                        className="inline-block bg-vt-maroon text-white px-8 py-3 rounded cursor-not-allowed opacity-75 text-lg"
+                    >
+                        Submit Your Abstract
+                    </button>
                 </div>
             </div>
         </div>
