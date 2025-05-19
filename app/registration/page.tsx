@@ -13,8 +13,8 @@ export default function RegistrationPage() {
             </div>
 
             <div className="text-center text-3xl">
-                <p classname="text-vt-maroon">
-                    Online registration is now closed.
+                <p classname="text-vt-maroon font-serif">
+                    Online registration is now closed
                 </p>
             </div>
 
