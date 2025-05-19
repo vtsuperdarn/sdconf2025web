@@ -65,7 +65,7 @@ export default function VenuePage() {
                                 </div>
                                 <div className="mt-8">
                                     <a
-                                        href="https://book.passkey.com/event/50906985/owner/9515698/home"
+                                        href="https://www.hotelroanoke.com/accommodations/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
@@ -73,7 +73,7 @@ export default function VenuePage() {
                                         Book Your Room
                                     </a>
                                     <p className="mt-4 text-sm text-gray-500">
-                                        Special conference rates available until May 16, 2025 11:59pm EDT
+                                        Special conference rates not available, regular rates available with hotel room availability.
                                     </p>
                                 </div>
                             </div>
