@@ -16,7 +16,7 @@ export default function ParticipantsPage() {
                 <section className="mb-16">
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-4xl font-semibold text-gray-900 mb-2">43</div>
+                            <div className="text-4xl font-semibold text-gray-900 mb-2">50</div>
                             <div className="text-lg text-gray-600">Total Participants</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
@@ -24,7 +24,7 @@ export default function ParticipantsPage() {
                             <div className="text-gray-600">Countries</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">23</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">24</div>
                             <div className="text-gray-600">Institutions</div>
                         </div>
                     </div>
@@ -252,6 +252,41 @@ export default function ParticipantsPage() {
                                 <h3 className="text-xl font-semibold">Dr. Wei Wang</h3>
                                 <p className="text-lg text-gray-600">National Space Science Center China</p>
                                 <p className="text-base text-gray-500">China</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Kile Baker</h3>
+                                <p className="text-lg text-gray-600">NSF (Retired)</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Chris Conti</h3>
+                                <p className="text-lg text-gray-600">Virginia Tech</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Veronica Romanek</h3>
+                                <p className="text-lg text-gray-600">Virginia Tech</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Tristen Wanner</h3>
+                                <p className="text-lg text-gray-600">Virginia Tech</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Syau-Yun Hsieh</h3>
+                                <p className="text-lg text-gray-600">JHU/APL</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Sankalita Sengupta</h3>
+                                <p className="text-lg text-gray-600">Virginia Tech</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Allison Pitzl</h3>
+                                <p className="text-lg text-gray-600">Virginia Tech</p>
+                                <p className="text-base text-gray-500">United States</p>
                             </div>
                             {/* More participant cards would be added here */}
                         </div>
