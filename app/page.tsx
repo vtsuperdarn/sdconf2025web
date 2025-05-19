@@ -16,7 +16,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <h3 className="font-serif font-semibold mb-2">Abstract Submission</h3>
-              <p className="text-gray-600">Open now <br />Deadline: May 18, 2025 <br /> 11:59pm EDT (UTC-4)</p>
+              <p className="text-gray-600 font-bold">Closed</p>
               <Link
                 href="/abstract"
                 className="inline-block mt-2 text-sm text-primary hover:test-primary/80 transition-colors"
@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <h3 className="font-serif font-semibold mb-2">Registration</h3>
-              <p className="text-gray-600">Open now <br />Closes: May 18, 2025 <br />11:59pm EDT (UTC-4)</p>
+              <p className="text-gray-600 font-bold">Online Closed</p>
                 <Link
                 href="/registration"
                 className="inline-block mt-2 text-sm text-primary hover:test-primary/80 transition-colors"
@@ -36,7 +36,8 @@ export default function Home() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <h3 className="font-serif font-semibold mb-2">Hotel Booking</h3>
-              <p className="text-gray-600">Available Now<br />Special Rate until May 16, 2025<br />11:59pm Eastern US (UTC-4)</p>
+              <p className="text-gray-600 font-bold">Closed</p>
+              <p className="text-gray-600">Regular reservations still available</p>
               <Link
                 href="/venue"
                 className="inline-block mt-2 text-sm text-primary hover:text-primary/80 transition-colors"
