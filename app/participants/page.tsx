@@ -20,11 +20,11 @@ export default function ParticipantsPage() {
                             <div className="text-lg text-gray-600">Total Participants</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">7</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">8</div>
                             <div className="text-gray-600">Countries</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">24</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">25</div>
                             <div className="text-gray-600">Institutions</div>
                         </div>
                     </div>
@@ -104,9 +104,9 @@ export default function ParticipantsPage() {
                                 <p className="text-base text-gray-500">United Kingdom</p>
                             </div>
                             <div className="p-4 border rounded-lg">
-                                <h3 className="text-xl font-semibold">Postgraduate Student Gamal Zayed</h3>
-                                <p className="text-lg text-gray-600">Virginia Tech</p>
-                                <p className="text-base text-gray-500">United States</p>
+                                <h3 className="text-xl font-semibold">Gamal Zayed</h3>
+                                <p className="text-lg text-gray-600">The American University in Cairo</p>
+                                <p className="text-base text-gray-500">Egypt</p>
                             </div>
                             <div className="p-4 border rounded-lg">
                                 <h3 className="text-xl font-semibold">Prof. Glenn Hussey</h3>
