@@ -13,6 +13,18 @@ export default function SchedulePage() {
             {/* Content */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
 
+               {/* Detailed Schedule */}
+                <section className="mb-12">
+                    <h2 className="text-2xl font-serif font-semibold text-gray-900 mb-6">
+                        Detailed Program
+                    </h2>
+                    <div className="mt-8 text-lg text-gray-600">
+                        An initial draft of the detailed schedule is now <a
+                        href="http://vt.superdarn.org/share/data/sd2025_workshop/SD2025_program_draft.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer" className="text-vt-maroon hover:text-vt-burgundy"><strong>available.</strong></a>
+                    </div>
+                </section>
 
                {/* Schedule Overview */}
                 <section className="mb-12">
@@ -32,10 +44,6 @@ export default function SchedulePage() {
                 </section>
 
 
-
-                <p className="mt-8 text-sm text-gray-500 text-center">
-                    The schedule will be updated closer to the workshop.
-                </p>
             </div>
         </div>
     )
