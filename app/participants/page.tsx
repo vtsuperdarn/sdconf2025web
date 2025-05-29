@@ -104,11 +104,6 @@ export default function ParticipantsPage() {
                                 <p className="text-base text-gray-500">United Kingdom</p>
                             </div>
                             <div className="p-4 border rounded-lg">
-                                <h3 className="text-xl font-semibold">Gamal Zayed</h3>
-                                <p className="text-lg text-gray-600">The American University in Cairo</p>
-                                <p className="text-base text-gray-500">Egypt</p>
-                            </div>
-                            <div className="p-4 border rounded-lg">
                                 <h3 className="text-xl font-semibold">Prof. Glenn Hussey</h3>
                                 <p className="text-lg text-gray-600">University of Saskatchewan</p>
                                 <p className="text-base text-gray-500">Canada</p>
@@ -286,6 +281,11 @@ export default function ParticipantsPage() {
                             <div className="p-4 border rounded-lg">
                                 <h3 className="text-xl font-semibold">Allison Pitzl</h3>
                                 <p className="text-lg text-gray-600">Virginia Tech</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Diego Sanchez</h3>
+                                <p className="text-lg text-gray-600">University of Scranton</p>
                                 <p className="text-base text-gray-500">United States</p>
                             </div>
                             {/* More participant cards would be added here */}
