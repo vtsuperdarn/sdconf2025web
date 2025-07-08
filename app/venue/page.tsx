@@ -52,26 +52,17 @@ export default function VenuePage() {
                                         <Globe className="w-5 h-5 mt-1 text-gray-400" />
                                         <div>
                                             <p className="font-medium text-gray-900">Website</p>
-                                            <a
-                                                href="https://www.hotelroanoke.com"
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="text-gray-900 hover:text-gray-600"
-                                            >
                                                 www.hotelroanoke.com
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="mt-8">
-                                    <a
-                                        href="https://www.hotelroanoke.com/accommodations/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors text-lg"
+                                    <button
+                                        disabled
+                                        className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors cursor-not-allowed text-lg"
                                     >
                                         Book Your Room
-                                    </a>
+                                    </button>
                                     <p className="mt-4 text-sm text-gray-500">
                                         Special conference rates not available, regular rates available with hotel room availability.
                                     </p>
