@@ -19,8 +19,8 @@ export default function SchedulePage() {
                         Detailed Program
                     </h2>
                     <div className="mt-8 text-lg text-gray-600">
-                        An initial draft of the detailed schedule is now <a
-                        href="http://vt.superdarn.org/share/data/sd2025_workshop/SD2025_program_draft.pdf"
+                        The detailed schedule is now <a
+                        href="http://vt.superdarn.org/share/data/sd2025_workshop/SD2025_program.pdf"
                         target="_blank"
                         rel="noopener noreferrer" className="text-vt-maroon hover:text-vt-burgundy"><strong>available.</strong></a>
                     </div>
