@@ -16,15 +16,15 @@ export default function ParticipantsPage() {
                 <section className="mb-16">
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-4xl font-semibold text-gray-900 mb-2">50</div>
+                            <div className="text-4xl font-semibold text-gray-900 mb-2">52</div>
                             <div className="text-lg text-gray-600">Total Participants</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">8</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">9</div>
                             <div className="text-gray-600">Countries</div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg text-center">
-                            <div className="text-3xl font-semibold text-gray-900 mb-2">25</div>
+                            <div className="text-3xl font-semibold text-gray-900 mb-2">27</div>
                             <div className="text-gray-600">Institutions</div>
                         </div>
                     </div>
@@ -287,6 +287,16 @@ export default function ParticipantsPage() {
                                 <h3 className="text-xl font-semibold">Diego Sanchez</h3>
                                 <p className="text-lg text-gray-600">University of Scranton</p>
                                 <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Jeff Holmes</h3>
+                                <p className="text-lg text-gray-600">AFRL</p>
+                                <p className="text-base text-gray-500">United States</p>
+                            </div>
+                            <div className="p-4 border rounded-lg">
+                                <h3 className="text-xl font-semibold">Dr. Babatunde Rabiu</h3>
+                                <p className="text-lg text-gray-600">National Space R & D Agency</p>
+                                <p className="text-base text-gray-500">Nigeria</p>
                             </div>
                             {/* More participant cards would be added here */}
                         </div>
