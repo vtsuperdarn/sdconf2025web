@@ -9,8 +9,19 @@ export default function Home() {
     <div className="min-h-screen">
       <Hero />
 
+
+     {/* Group photo */}
+    <section className="py-6 bg-white flex items-center justify-center">
+      <div className="w-5/6">
+        <img
+            src="http://vt.superdarn.org/share/data/sd2025_workshop/photos/group_photo_2025.jpeg"
+            alt="Group Photo of SuperDARN 2025 Workshop Attendees"
+         />
+      </div>
+    </section>
+
       {/* Important Dates Section */}
-      <section className="py-16 bg-white">
+      <section className="py-10 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-serif font-semibold text-center mb-12">Important Dates</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
