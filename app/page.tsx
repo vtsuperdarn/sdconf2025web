@@ -20,59 +20,6 @@ export default function Home() {
       </div>
     </section>
 
-      {/* Important Dates Section */}
-      <section className="py-10 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-serif font-semibold text-center mb-12">Important Dates</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
-              <h3 className="font-serif font-semibold mb-2">Abstract Submission</h3>
-              <p className="text-gray-600 font-bold">Closed</p>
-              <Link
-                href="/abstract"
-                className="inline-block mt-2 text-sm text-primary hover:test-primary/80 transition-colors"
-              >
-                Learn More →
-              </Link>
-            </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
-              <h3 className="font-serif font-semibold mb-2">Registration</h3>
-              <p className="text-gray-600 font-bold">Online Closed</p>
-                <Link
-                href="/registration"
-                className="inline-block mt-2 text-sm text-primary hover:test-primary/80 transition-colors"
-              >
-                Learn More →
-              </Link>
-            </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
-              <h3 className="font-serif font-semibold mb-2">Hotel Booking</h3>
-              <p className="text-gray-600 font-bold">Closed</p>
-              <p className="text-gray-600">Regular reservations still available</p>
-              <Link
-                href="/venue"
-                className="inline-block mt-2 text-sm text-primary hover:text-primary/80 transition-colors"
-              >
-                Registration Info →              
-              </Link>
-            </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
-              <h3 className="font-serif font-semibold mb-2">Visa Information</h3>
-              <p className="text-gray-600">
-                Request Invitation Letter<br />
-                <span className="text-sm font-bold">If needed, complete this as soon as possible.</span>
-              </p>
-              <Link
-                href="/travel#visa"
-                className="inline-block mt-2 text-sm text-primary hover:text-primary/80 transition-colors"
-              >
-                Learn More →
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Welcome Message Section */}
       <section>
           <h2 className="text-3xl font-serif font-semibold text-center mb-12">Welcome!</h2>
