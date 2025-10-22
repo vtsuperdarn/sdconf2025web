@@ -1,5 +1,3 @@
-import {Table, TableHeader, TableColumn, TableBody, TableRow, TabelCell} from "@heroui/react";
-
 export default function SchedulePage() {
     return (
         <div className="min-h-screen bg-white">
