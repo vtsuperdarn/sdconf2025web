@@ -1,3 +1,5 @@
+import {Table, TableHeader, TableColumn, TableBody, TableRow, TabelCell} from "@heroui/react";
+
 export default function SchedulePage() {
     return (
         <div className="min-h-screen bg-white">
@@ -43,8 +45,103 @@ export default function SchedulePage() {
                     </div>
                 </section>
 
+               {/* Presentations */}
+                <section className="mb-12">
+                    <h1 className="text-3xl font-serif font-bold text-gray-900 mb-6">
+                        Presentations
+                    </h1>
+
+                    <table className="w-full">
+                        <thead>
+                        <tr>
+                            <th className="text-left w-1/4">Presenting Author</th>
+                            <th className="text-left w-1/2">Title</th>
+                            <th className="text-left w-1/4">Presentation</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr className="h-12">
+                            <td className="font-semibold">Monday 9:00 - 10:30am</td>
+                            <td>Welcome and Reports</td>
+                        </tr>
+                        <tr>
+                            <td>Chisham, G.</td>
+                            <td>Introduction by the Chair of the SuperDARN PI Executive Council</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Chisham, G.</td>
+                            <td>Review of the Status of SuperDARN in 2025</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Thomas, E.G.</td>
+                            <td>Schedluing Working Group Report</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Sterne, K.T.</td>
+                            <td>Data Analysis Working Group Report</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Fuli, M.</td>
+                            <td>Data Distribution Working Group Report</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Billet, D.</td>
+                            <td>Data Visualization Working Group Report</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+
+                        <tr className="h-12">
+                            <td className="font-semibold">Monday 11:00am - Noon</td>
+                            <td>In Memoriam: Dieter Andre and Kathryn McWilliams</td>
+                        </tr>
+
+
+                        <tr className="h-12">
+                            <td className="font-semibold">Monday 1:30 - 3:15pm</td>
+                            <td>Technical Developments & Operations</td>
+                        </tr>
+                        <tr>
+                            <td>Chisham, G.</td>
+                            <td>A proposal for a SUperDARN refractive index task force</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Thomas, E.G.</td>
+                            <td className="align-text-top">On the need for a new working group to consistently and transparently handle external data rquests</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Galeschuk, D.</td>
+                            <td>On the acceleration of pyDARNio DMAP operations using Rust</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Ponomarenko, P.</td>
+                            <td>Utilising elevation angle for improved SuperDARN velocity and geolocation estimates</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Kolkman, T.</td>
+                            <td>Improved Receive Path Amplification Circuitry</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+
+                </section>
+
 
             </div>
+
+
         </div>
     )
 } 
