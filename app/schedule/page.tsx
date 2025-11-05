@@ -52,16 +52,16 @@ export default function SchedulePage() {
                     <table className="w-full">
                         <thead>
                         <tr>
-                            <th className="text-left w-1/4">Presenting Author</th>
-                            <th className="text-left w-1/2">Title</th>
-                            <th className="text-left w-1/4">Presentation</th>
+                            <th className="text-left text-xl w-1/4">Presenting Author</th>
+                            <th className="text-left text-xl w-1/2">Title</th>
+                            <th className="text-left text-xl w-1/4">Presentation</th>
                         </tr>
                         </thead>
                         <tbody>
 
-                        <tr className="h-12">
+                        <tr className="h-16 text-xl">
                             <td className="font-semibold">Monday 9:00 - 10:30am</td>
-                            <td>Welcome and Reports</td>
+                            <td className="font-semibold">Welcome and Reports</td>
                         </tr>
                         <tr>
                             <td>Chisham, G.</td>
@@ -94,14 +94,14 @@ export default function SchedulePage() {
                             <td>.pdf (size TBD)</td>
                         </tr>
 
-                        <tr className="h-12">
+                        <tr className="h-16 text-xl">
                             <td className="font-semibold">Monday 11:00am - Noon</td>
-                            <td>In Memoriam: Dieter Andre and Kathryn McWilliams</td>
+                            <td className="font-semibold">In Memoriam: Dieter Andre and Kathryn McWilliams</td>
                         </tr>
 
 
-                        <tr className="h-12">
-                            <td className="font-semibold">Monday 1:30 - 3:15pm</td>
+                        <tr className="h-16 text-xl font-semibold">
+                            <td>Monday 1:30 - 3:15pm</td>
                             <td>Technical Developments & Operations</td>
                         </tr>
                         <tr>
@@ -129,6 +129,57 @@ export default function SchedulePage() {
                             <td>Improved Receive Path Amplification Circuitry</td>
                             <td>.pdf (size TBD)</td>
                         </tr>
+                        <tr className="h-16 text-xl font-semibold">
+                            <td>Monday 3:45pm-5:15pm</td>
+                            <td>Technical Developments & Operations</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Ponomarenko, P.</td>
+                            <td>Determination of Heppner-Maynard boundary: ongoing problems and potential solutions</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Ruohoniemi, J.M.</td>
+                            <td>Enhanced operations at Blackston with USRP-based electronics</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Thomas, E.G.</td>
+                            <td>Conversion of Iceland radars to USRP-based electronics and first results</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>All</td>
+                            <td>Open/Discussion</td>
+                            <td></td>
+                        </tr>
+                        <tr className="h-16 text-xl font-semibold">
+                            <td>Tuesday 9:00am - 10:30am</td>
+                            <td>Geomagnetic Storsm & Modeling</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Merkin, V.G.</td>
+                            <td><span className="font-semibold">Invited talk:</span> Understanding stormtime geospace as a complex system: Recent progress from the Center for Geospace Storms</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Sibeck, D.G.</td>
+                            <td>Dynamics of the Subsolar Megnetosheath</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Foster, J.C.</td>
+                            <td>Multi-instrument Observations of Stormtime Mid-Latitude Geospace Phenomena</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Kunduri, B.S.R.</td>
+                            <td>An examination of HF radar observations during a super geomagnetic storm</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
+
 
                         </tbody>
                     </table>
