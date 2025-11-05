@@ -385,7 +385,7 @@ export default function SchedulePage() {
                             <td>.pdf (size TBD)</td>
                         </tr>
                         <tr>
-                            <td>van Wyk, D>J..</td>
+                            <td>van Wyk, D.J.</td>
                             <td>Enhanced Capabilities of SANSA's SuperDARN Radar: Dual-Channel, Interferometry, and Expanded Space Weather Observations</td>
                             <td>.pdf (size TBD)</td>
                         </tr>
