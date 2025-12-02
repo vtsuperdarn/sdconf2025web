@@ -341,7 +341,7 @@ export default function SchedulePage() {
                         </tr>
                         <tr>
                             <td>Perry, G.W.</td>
-                            <td>Remote sensing of the ionospheric impact fo the April 2024 total solar eclipse</td>
+                            <td>Remote sensing of the ionospheric impact of the April 2024 total solar eclipse</td>
                             <td>.pdf (size TBD)</td>
                         </tr>
                         <tr>
