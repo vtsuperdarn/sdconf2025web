@@ -141,7 +141,7 @@ export default function SchedulePage() {
                         </tr>
                         <tr>
                             <td>Ruohoniemi, J.M.</td>
-                            <td>Enhanced operations at Blackston with USRP-based electronics</td>
+                            <td>Enhanced operations at Blackstone with USRP-based electronics</td>
                             <td>.pdf (size TBD)</td>
                         </tr>
                         <tr>
