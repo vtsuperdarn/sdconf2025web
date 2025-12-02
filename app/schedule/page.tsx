@@ -221,7 +221,7 @@ export default function SchedulePage() {
                         </tr>
                         <tr>
                             <td>Galeschuk, D.</td>
-                            <td>Boeralis Update - v1.0 New Capabilities and Enhancements</td>
+                            <td>Borealis Update - v1.0 New Capabilities and Enhancements</td>
                             <td>.pdf (size TBD)</td>
                         </tr>
                         <tr>
