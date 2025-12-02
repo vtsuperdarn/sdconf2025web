@@ -366,7 +366,7 @@ export default function SchedulePage() {
                         </tr>
                         <tr>
                             <td>Nishitani, N.</td>
-                            <td>SuperDARN HOP radars observation of Ionospheric convectino associated with low-latitude auroras</td>
+                            <td>SuperDARN HOP radars observation of Ionospheric convection associated with low-latitude auroras</td>
                             <td>.pdf (size TBD)</td>
                         </tr>
                         <tr>
