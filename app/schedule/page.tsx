@@ -311,7 +311,7 @@ export default function SchedulePage() {
                         </tr>
                         <tr>
                             <td>Erickson, P.J.</td>
-                            <td><span className="font-semibold">Invited talk:"</span> Incoherent scatter radar: An invaluable tool in the field of space and plasma physics</td>
+                            <td><span className="font-semibold">Invited talk:</span> Incoherent scatter radar: An invaluable tool in the field of space and plasma physics</td>
                             <td>.pdf (size TBD)</td>
                         </tr>
                         <tr>
