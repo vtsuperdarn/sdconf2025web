@@ -254,6 +254,11 @@ export default function SchedulePage() {
                             <td>Magnetospheric Inputs of Poynting Flux to and Its Effects in the Ionosphere</td>
                             <td>.pdf (size TBD)</td>
                         </tr>
+                        <tr>
+                            <td>Rabiu, A.B.</td>
+                            <td>VT-Nigerian Bowen Equatorial Aeronomy Radar (VT-NigerBEAR)</td>
+                            <td>.pdf (size TBD)</td>
+                        </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Wednesday 9:00am - 10:30am</td>
                             <td>TIDs & Neutral Atmosphere</td>
