@@ -66,12 +66,18 @@ export default function SchedulePage() {
                         <tr>
                             <td>Chisham, G.</td>
                             <td>Introduction by the Chair of the SuperDARN PI Executive Council</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/Introduction.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 2.2MB)</td>
                         </tr>
                         <tr>
                             <td>Chisham, G.</td>
                             <td>Review of the Status of SuperDARN in 2025</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/Status_Review.pdf"
+                                target="blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 4.1MB)</td>
                         </tr>
                         <tr>
                             <td>Thomas, E.G.</td>
@@ -84,18 +90,24 @@ export default function SchedulePage() {
                             <td><a
                                 href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/DAWG_Report_2025.pdf"
                                 target="_blank"
-                                rel="noopener noreferrer"><strong> DAWG_Report_2025.pdf
+                                rel="noopener noreferrer"><strong>.pdf
                                 </strong></a> (size 109KB)</td>
                         </tr>
                         <tr>
                             <td>Fuli, M.</td>
                             <td>Data Distribution Working Group Report</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/SuperDARN%20worksop%20DDWG%20report.mp4"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.mp4 </strong></a> (size 20MB)</td>
                         </tr>
                         <tr>
                             <td>Billet, D.</td>
                             <td>Data Visualization Working Group Report</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/dvwg-2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 1.1MB)</td>
                         </tr>
 
                         <tr className="h-16 text-xl">
@@ -111,7 +123,10 @@ export default function SchedulePage() {
                         <tr>
                             <td>Chisham, G.</td>
                             <td>A proposal for a SuperDARN refractive index task force</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/Refractive_Index.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 3.3MB)</td>
                         </tr>
                         <tr>
                             <td>Thomas, E.G.</td>
@@ -121,17 +136,26 @@ export default function SchedulePage() {
                         <tr>
                             <td>Galeschuk, D.</td>
                             <td>On the acceleration of pyDARNio DMAP operations using Rust</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/On_the_acceleration_of_pyDARNio_DMAP_operations_using_Rust.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 1.1MB)</td>
                         </tr>
                         <tr>
                             <td>Ponomarenko, P.</td>
                             <td>Utilising elevation angle for improved SuperDARN velocity and geolocation estimates</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/Ponomarenko_refractive_index_Monday.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 1.4MB)</td>
                         </tr>
                         <tr>
                             <td>Kolkman, T.</td>
                             <td>Improved Receive Path Amplification Circuitry</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/Kolkman_rxpath_design_final.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 4.0MB)</td>
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Monday 3:45pm-5:15pm</td>
@@ -141,12 +165,18 @@ export default function SchedulePage() {
                         <tr>
                             <td>Ponomarenko, P.</td>
                             <td>Determination of Heppner-Maynard boundary: ongoing problems and potential solutions</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/Ponomarenko_HMB_Monday.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 1.4MB)</td>
                         </tr>
                         <tr>
                             <td>Ruohoniemi, J.M.</td>
                             <td>Enhanced operations at Blackstone with USRP-based electronics</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/Enhanced_ops_at_Blackstone_with_USRP-based_electronics.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 1.9MB)</td>
                         </tr>
                         <tr>
                             <td>Thomas, E.G.</td>
