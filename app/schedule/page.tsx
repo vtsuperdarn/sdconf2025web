@@ -476,7 +476,10 @@ export default function SchedulePage() {
                         <tr>
                             <td>Pitzl, A.P.</td>
                             <td>Analysis of Phase Code Modulation on Optimizing Data Resolution at the Blackstone SuperDARN Site</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/pitzl_sd2025_FINAL.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 2.3MB)</td>
                         </tr>
                         <tr>
                             <td>Conti, C.M.</td>
@@ -496,7 +499,10 @@ export default function SchedulePage() {
                         <tr>
                             <td>Haralambous, H.</td>
                             <td>Monitoring plasma drifts over Europe using Digisondes</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/2025-SuperDARN_2025_VT_H.Haralambous.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 261KB)</td>
                         </tr>
 
 
