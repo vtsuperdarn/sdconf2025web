@@ -81,7 +81,11 @@ export default function SchedulePage() {
                         <tr>
                             <td>Sterne, K.T.</td>
                             <td>Data Analysis Working Group Report</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Monday/DAWG_Report_2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> DAWG_Report_2025.pdf
+                                </strong></a> (size 109KB)</td>
                         </tr>
                         <tr>
                             <td>Fuli, M.</td>
