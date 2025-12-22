@@ -81,7 +81,7 @@ export default function SchedulePage() {
                         </tr>
                         <tr>
                             <td>Thomas, E.G.</td>
-                            <td>Schedluing Working Group Report</td>
+                            <td>Scheduling Working Group Report</td>
                             <td>.pdf (size TBD)</td>
                         </tr>
                         <tr>
