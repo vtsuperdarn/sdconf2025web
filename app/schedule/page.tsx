@@ -514,12 +514,18 @@ export default function SchedulePage() {
                         <tr>
                             <td>Billett, D.</td>
                             <td>The 2022 Starlink Geomagnetic Storms: Global Thermospheric Response to a High-Latitude Ionospheric Driver</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/billett_poster.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 4.3MB)</td>
                         </tr>
                         <tr>
                             <td>van Wyk, D.J.</td>
                             <td>Enhanced Capabilities of SANSA's SuperDARN Radar: Dual-Channel, Interferometry, and Expanded Space Weather Observations</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SANSA_SuperDARN_2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 5.6MB)</td>
                         </tr>
                         <tr>
                             <td>Chisham, G.</td>
@@ -529,32 +535,50 @@ export default function SchedulePage() {
                         <tr>
                             <td>Burrell, A.G.</td>
                             <td>Automated identification of Auroral Luminosity Boundaries using pyIntensityFeatures</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/IntFeatPoster.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 3.6MB)</td>
                         </tr>
                         <tr>
                             <td>Frissell, N.A.</td>
                             <td>First Observations Linking Large-Scale Traveling Ionospheric Disturbances to Polar Vortex Strength</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SuperDARN_2025_Frissell_LSTID_MSTID_PV.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.9MB)</td>
                         </tr>
                         <tr>
                             <td>Burrell, A.G.</td>
                             <td>Equitable Letters for Space and Physics</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/elsp_poster.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 392KB)</td>
                         </tr>
                         <tr>
                             <td>Shi, X.</td>
                             <td>Solar flare-induced gradient drift instability observed by SuperDARN HF radars</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Chakraborty_Shibaji_SuperDARN_Workshop_2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.2MB)</td>
                         </tr>
                         <tr>
                             <td>Romanek, V.</td>
                             <td>An examination of the impact of Strong Thermal Emission Velocity Enhancement (STEVE) on mid-latitude ionosphere</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SuperDARN_Workshop_Poster_Romanek.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.3MB)</td>
                         </tr>
                         <tr>
                             <td>Sterne, K.T.</td>
                             <td>Remote Transmitter Monitoring Project</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/S25-25_Poster.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 927KB)</td>
                         </tr>
                         <tr>
                             <td>Wanner, T.</td>
@@ -572,7 +596,7 @@ export default function SchedulePage() {
                             <td><a
                                 href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/pitzl_sd2025_FINAL.pdf"
                                 target="_blank"
-                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 2.3MB)</td>
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.3MB)</td>
                         </tr>
                         <tr>
                             <td>Conti, C.M.</td>
@@ -581,13 +605,19 @@ export default function SchedulePage() {
                         </tr>
                         <tr>
                             <td>Ruohoniemi, J.M.</td>
-                            <td>TBD</td>
-                            <td>.pdf (size TBD)</td>
+                            <td>The Blacksotne SuperDARN HF Radar</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Ruohoniemi_Blackstone.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.7MB)</td>
                         </tr>
                         <tr>
                             <td>Sanchez, D.</td>
                             <td>Climatology of Large-Scale Traveling Ionospheric Disturbances Observed with 14 MHz Amateur Radio Using a Novel Automated Detection Technique</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Sanchez_Diego_SuperDARN_2025_Poster.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.3MB)</td>
                         </tr>
                         <tr>
                             <td>Haralambous, H.</td>
@@ -609,17 +639,26 @@ export default function SchedulePage() {
                         <tr>
                             <td>Greenwald, R.</td>
                             <td>History of SuperDARN (pre-SuperDARN days)</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Friday/History_of_SuperDARN.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 6.5MB)</td>
                         </tr>
                         <tr>
-                            <td>TBD</td>
-                            <td>Proposal for future SuperDARN Workshops</td>
-                            <td>.pdf (size TBD)</td>
+                            <td></td>
+                            <td>Ray & Mike at Goose Bay</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Friday/Slides_Ray_BAS.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 978KB)</td>
                         </tr>
                         <tr>
                             <td>Chisham, G.</td>
                             <td>Closing summary by the Chair of the SuperDARN PI Executive Council</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Friday/Closing_Summary.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 229KB)</td>
                         </tr>
 
 
