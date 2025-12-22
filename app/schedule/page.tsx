@@ -196,22 +196,34 @@ export default function SchedulePage() {
                         <tr>
                             <td>Merkin, V.G.</td>
                             <td><span className="font-semibold">Invited talk:</span> Understanding stormtime geospace as a complex system: Recent progress from the Center for Geospace Storms</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/SuperDARN-June2025_slava.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 6.8MB)</td>
                         </tr>
                         <tr>
                             <td>Sibeck, D.G.</td>
                             <td>Dynamics of the Subsolar Megnetosheath</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/Sibeck_SuperDARN_Presentation.pdf"
+                                target="_blank"
+                                rel="noopener noreferr"><strong> .pdf  </strong></a> (size 479KB)</td>
                         </tr>
                         <tr>
                             <td>Foster, J.C.</td>
                             <td>Multi-instrument Observations of Stormtime Mid-Latitude Geospace Phenomena</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/SuperDARN2025_Foster.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 3.3MB)</td>
                         </tr>
                         <tr>
                             <td>Kunduri, B.S.R.</td>
                             <td>An examination of HF radar observations during a super geomagnetic storm</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/May11_storm_SD.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.9MB)</td>
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Tuesday 11:00am - Noon</td>
@@ -221,17 +233,26 @@ export default function SchedulePage() {
                         <tr>
                             <td>Lin, D.</td>
                             <td>MAGE simulation of the effects of subauroral polarization streams (SAPS) on the global thermosphere and ionosphere during geomagnetic storms</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/SuperDARN-SAPS-2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 4.7MB)</td>
                         </tr>
                         <tr>
                             <td>Zhang, J.J.</td>
                             <td>Observation of Subauroral Polarization Streams Cutoff during Super Geomagnetic Storm</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/Observation_of_Subauroral_Polarization_Streams-jjzhang.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 7.5MB)</td>
                         </tr>
                         <tr>
                             <td>Zou, Y.</td>
                             <td>Hemispheric symmetry and asymmetry of poleward moving radar auroral forms (PMRAFs) and associated polar cap patches during a geomagnetic storm</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/SuperDARN2025_YZ2.pdf"
+                                target="_blank"
+                                rel="noopener noreferer"><strong> .pdf </strong></a> (size 2.1MB)</td>
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Tuesday 1:30pm - 3:15pm</td>
@@ -246,22 +267,34 @@ export default function SchedulePage() {
                         <tr>
                             <td>Hussey, G.C.</td>
                             <td>On the improvement of simultaneous full field-of-view operations</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/SD2025_Remington.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.9MB)</td>
                         </tr>
                         <tr>
                             <td>Billett, D.</td>
                             <td>New observations and insights from four-second resolution convection maps</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/fbi_billett.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 7.7MB)</td>
                         </tr>
                         <tr>
                             <td>Galeschuk, D.</td>
                             <td>Borealis Update - v1.0 New Capabilities and Enhancements</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/dgaleschuk_superdarn_boeralis_cfs_2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 5.9MB)</td>
                         </tr>
                         <tr>
                             <td>Nishimura, Y.</td>
                             <td>High-Time Resolution Ionospheric Convection Associated with Nightside Auroral Intensifications</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/SuperDARN_Nishimura.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 3.5MB)</td>
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Tuesday 3:45pm - 5:15pm</td>
@@ -271,27 +304,42 @@ export default function SchedulePage() {
                         <tr>
                             <td>Lyons, L.</td>
                             <td><span className="font-semibold">Invited talk:</span> SuperDARN: Observations Demonstrating Meso-scale Coupling from the Polar Cap to Major Auroral Oval Disturbances</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/Lyons_SuperDARN_2025short.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 11MB)</td>
                         </tr>
                         <tr>
                             <td>Bristow, W.A.</td>
                             <td>Convection Velocity Covariance Estimated from SuperDARN Observation</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/VelocityCovariance.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 12MB)</td>
                         </tr>
                         <tr>
                             <td>Burrell, A.G.</td>
                             <td>Developing an Empirical Model of Auroral Boundaries</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/2025_AGB_SuperDARN_Bounds.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 12MB)</td>
                         </tr>
                         <tr>
                             <td>Lin, D.</td>
                             <td>Magnetospheric Inputs of Poynting Flux to and Its Effects in the Ionosphere</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/20250603P_SuperDARN_Workshop_PF.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.0MB)</td>
                         </tr>
                         <tr>
                             <td>Rabiu, A.B.</td>
                             <td>VT-Nigerian Bowen Equatorial Aeronomy Radar (VT-NigerBEAR)</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Tuesday/Nigerbear_June_2025_Roanoke.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.8MB)</td>
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Wednesday 9:00am - 10:30am</td>
@@ -301,22 +349,34 @@ export default function SchedulePage() {
                         <tr>
                             <td>Frissell, N.A.</td>
                             <td><span className="font-semibold">Invited talk:</span> MSTID Response to Weak Polar Vortex Events as Obesrved by SuperDARN Radars in the Nothern Southern Hemispheres</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Wednesday/20250603_Frissell_SuperDARN_Workshop_2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 11MB)</td>
                         </tr>
                         <tr>
                             <td>Erickson, P.J.</td>
                             <td>Recent Studies of Multiscale Cold Plasma Dynamics and TIDs at Subauroral Latitudes</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Wednesday/Multiscale_Subauroral_SD2025_Erickson.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 15MB)</td>
                         </tr>
                         <tr>
                             <td>Wang, W.</td>
                             <td>Study of Continental-scale Poleward Medium-Scale Traveling Ionospheric Disturbance Observed at Middle Latitudes</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Wednesday/Wei_wang.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 4.1MB)</td>
                         </tr>
                         <tr>
                             <td>Shi, X.</td>
                             <td>Multi-scale Traveling Ionospheric Disturbances Generated by High-Latitude Ultra-Low-Frequency Waves in Numerical Simulations</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Wednesday/SD_ULF_TID_23May_simulation_XS.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 3.6MB)</td>
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Wednesday 11:00am - Noon</td>
@@ -326,17 +386,26 @@ export default function SchedulePage() {
                         <tr>
                             <td>Gallardo-Lacourt, B.</td>
                             <td><span className="font-semibold">Invited talk:</span> Exploring the prospects for a vivid collaborative science between the GDC mission and the Ground-Based community</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Wednesday/BGL_SuperDARN_2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 5.0MB)</td>
                         </tr>
                         <tr>
                             <td>Hussey, G.C.</td>
                             <td>Phase and Amplitude Calibration of ICEBEAR and SuperDARN Receiver Arrays Using Aircraft Echoes</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Wednesday/SuperDARN2025-icebear-superdarn-airplanes.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.1MB)</td>
                         </tr>
                         <tr>
                             <td>Nishitani, N.</td>
                             <td>Initial results of the Fall 2023 SuperDARN-Arase conjunction campaign: subauroral polarization streams wave structure (SAPSWS)</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Wednesday/Hori_SD_ERG_2023_campaign_SD2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.0MB)</td>
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Thursday 9:00am - 10:30am</td>
@@ -346,22 +415,34 @@ export default function SchedulePage() {
                         <tr>
                             <td>Erickson, P.J.</td>
                             <td><span className="font-semibold">Invited talk:</span> Incoherent scatter radar: An invaluable tool in the field of space and plasma physics</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/IS_Radar_ISSI_SD2025_Erickson.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.2MB)</td>
                         </tr>
                         <tr>
                             <td>Nishitani, N.</td>
                             <td>Statistics of dusk scatter echoes including ULF waves</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/caterpillar_statistics.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.0MB)</td>
                         </tr>
                         <tr>
                             <td>Emmons, D.J.</td>
                             <td>GNSS Radio Occultation Measurements of Sporadic-E Layers</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Emmons_GPSRO_SuperDARN_Jun2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 3.9MB)</td>
                         </tr>
                         <tr>
                             <td>Anderson, T.S.</td>
                             <td>Artificial field-aligned irregularity generation at HAARP and upcoming bistatic coherent imaging campaign</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Anderson_SuperDARN2025_LA-UR-25-25250.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 3.3MB)</td>
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Thursday 11:00am - Noon</td>
@@ -371,17 +452,26 @@ export default function SchedulePage() {
                         <tr>
                             <td>Zhang, J.J.</td>
                             <td>Auroral Activity Observed from Unusual Latitudes in China and Its Underlying Significance</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Auroral_Activity_Observed_from_Unusual_Latitudes_in_China_and_Its_Underlying_Significance.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 6.1MB)</td>
                         </tr>
                         <tr>
                             <td>Perry, G.W.</td>
                             <td>Remote sensing of the ionospheric impact of the April 2024 total solar eclipse</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SuperDARN_2025_Perry.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 66MB)</td>
                         </tr>
                         <tr>
                             <td>Feng, J.Y.</td>
                             <td>Rapid Lower Ionospheric Responses to the April 2023 Geomagnetic Storm as Observed by VLF Transmitter Signals</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Presentation_Jingyuan_Feng.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 3.8MB)</td>
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Thursday 1:30pm - 3:15pm</td>
@@ -406,7 +496,10 @@ export default function SchedulePage() {
                         <tr>
                             <td>Beser, K.</td>
                             <td>Automatic detection of polar cap patches in SuperDARN observations</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Beser_SuperDARN-2025.pptx.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 4.3MB)</td>
                         </tr>
                         <tr>
                             <td>Troyer, R.</td>
