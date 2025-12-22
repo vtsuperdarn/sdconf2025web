@@ -583,7 +583,10 @@ export default function SchedulePage() {
                         <tr>
                             <td>Wanner, T.</td>
                             <td>A SuperDARN-Based Validation method for the REMIX Ionospheric Model by Asessing ExB Convection Patterns</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SuperMAGE_poster_2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.6MB)</td>
                         </tr>
                         <tr>
                             <td>Sengupta, S.</td>
