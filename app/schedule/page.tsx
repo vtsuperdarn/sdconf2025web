@@ -591,7 +591,10 @@ export default function SchedulePage() {
                         <tr>
                             <td>Sengupta, S.</td>
                             <td>Probabilistic Regional Forecasting of Geomagnetically Induced Currents (GICs) using a Refinded Machine Learning-Based Classifier</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Sengupta_Poster_SuperDARN.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 623KB)</td>
                         </tr>
                         <tr>
                             <td>Pitzl, A.P.</td>
@@ -604,7 +607,10 @@ export default function SchedulePage() {
                         <tr>
                             <td>Conti, C.M.</td>
                             <td>Preliminary Analysis of the Effect of Earth's Magnetic Field on HF Propagation</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Conti_Poster_Final.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 710KB)</td>
                         </tr>
                         <tr>
                             <td>Ruohoniemi, J.M.</td>
