@@ -520,33 +520,12 @@ export default function SchedulePage() {
                                 rel="noopener noreferrer"><strong> .pdf </strong></a> (size 4.3MB)</td>
                         </tr>
                         <tr>
-                            <td>van Wyk, D.J.</td>
-                            <td>Enhanced Capabilities of SANSA's SuperDARN Radar: Dual-Channel, Interferometry, and Expanded Space Weather Observations</td>
-                            <td><a
-                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SANSA_SuperDARN_2025.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 5.6MB)</td>
-                        </tr>
-                        <tr>
-                            <td>Chisham, G.</td>
-                            <td>Using vorticity to characterise meso-scale ionospheric flow variations</td>
-                            <td>.pdf (size TBD)</td>
-                        </tr>
-                        <tr>
                             <td>Burrell, A.G.</td>
                             <td>Automated identification of Auroral Luminosity Boundaries using pyIntensityFeatures</td>
                             <td><a
                                 href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/IntFeatPoster.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"><strong> .pdf </strong></a> (size 3.6MB)</td>
-                        </tr>
-                        <tr>
-                            <td>Frissell, N.A.</td>
-                            <td>First Observations Linking Large-Scale Traveling Ionospheric Disturbances to Polar Vortex Strength</td>
-                            <td><a
-                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SuperDARN_2025_Frissell_LSTID_MSTID_PV.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.9MB)</td>
                         </tr>
                         <tr>
                             <td>Burrell, A.G.</td>
@@ -557,44 +536,33 @@ export default function SchedulePage() {
                                 rel="noopener noreferrer"><strong> .pdf </strong></a> (size 392KB)</td>
                         </tr>
                         <tr>
-                            <td>Shi, X.</td>
-                            <td>Solar flare-induced gradient drift instability observed by SuperDARN HF radars</td>
-                            <td><a
-                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Chakraborty_Shibaji_SuperDARN_Workshop_2025.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.2MB)</td>
+                            <td>Chisham, G.</td>
+                            <td>Using vorticity to characterise meso-scale ionospheric flow variations</td>
+                            <td>.pdf (size TBD)</td>
                         </tr>
                         <tr>
-                            <td>Romanek, V.</td>
-                            <td>An examination of the impact of Strong Thermal Emission Velocity Enhancement (STEVE) on mid-latitude ionosphere</td>
+                            <td>Conti, C.M.</td>
+                            <td>Preliminary Analysis of the Effect of Earth's Magnetic Field on HF Propagation</td>
                             <td><a
-                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SuperDARN_Workshop_Poster_Romanek.pdf"
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Conti_Poster_Final.pdf"
                                 target="_blank"
-                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.3MB)</td>
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 710KB)</td>
                         </tr>
                         <tr>
-                            <td>Sterne, K.T.</td>
-                            <td>Remote Transmitter Monitoring Project</td>
+                            <td>Frissell, N.A.</td>
+                            <td>First Observations Linking Large-Scale Traveling Ionospheric Disturbances to Polar Vortex Strength</td>
                             <td><a
-                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/S25-25_Poster.pdf"
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SuperDARN_2025_Frissell_LSTID_MSTID_PV.pdf"
                                 target="_blank"
-                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 927KB)</td>
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.9MB)</td>
                         </tr>
                         <tr>
-                            <td>Wanner, T.</td>
-                            <td>A SuperDARN-Based Validation method for the REMIX Ionospheric Model by Asessing ExB Convection Patterns</td>
+                            <td>Haralambous, H.</td>
+                            <td>Monitoring plasma drifts over Europe using Digisondes</td>
                             <td><a
-                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SuperMAGE_poster_2025.pdf"
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/2025-SuperDARN_2025_VT_H.Haralambous.pdf"
                                 target="_blank"
-                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.6MB)</td>
-                        </tr>
-                        <tr>
-                            <td>Sengupta, S.</td>
-                            <td>Probabilistic Regional Forecasting of Geomagnetically Induced Currents (GICs) using a Refinded Machine Learning-Based Classifier</td>
-                            <td><a
-                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Sengupta_Poster_SuperDARN.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 623KB)</td>
+                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 261KB)</td>
                         </tr>
                         <tr>
                             <td>Pitzl, A.P.</td>
@@ -605,12 +573,12 @@ export default function SchedulePage() {
                                 rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.3MB)</td>
                         </tr>
                         <tr>
-                            <td>Conti, C.M.</td>
-                            <td>Preliminary Analysis of the Effect of Earth's Magnetic Field on HF Propagation</td>
+                            <td>Romanek, V.</td>
+                            <td>An examination of the impact of Strong Thermal Emission Velocity Enhancement (STEVE) on mid-latitude ionosphere</td>
                             <td><a
-                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Conti_Poster_Final.pdf"
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SuperDARN_Workshop_Poster_Romanek.pdf"
                                 target="_blank"
-                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 710KB)</td>
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.3MB)</td>
                         </tr>
                         <tr>
                             <td>Ruohoniemi, J.M.</td>
@@ -629,14 +597,45 @@ export default function SchedulePage() {
                                 rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.3MB)</td>
                         </tr>
                         <tr>
-                            <td>Haralambous, H.</td>
-                            <td>Monitoring plasma drifts over Europe using Digisondes</td>
+                            <td>Sengupta, S.</td>
+                            <td>Probabilistic Regional Forecasting of Geomagnetically Induced Currents (GICs) using a Refinded Machine Learning-Based Classifier</td>
                             <td><a
-                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/2025-SuperDARN_2025_VT_H.Haralambous.pdf"
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Sengupta_Poster_SuperDARN.pdf"
                                 target="_blank"
-                                rel="noopener noreferrer"><strong>.pdf</strong></a> (size 261KB)</td>
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 623KB)</td>
                         </tr>
-
+                        <tr>
+                            <td>Shi, X.</td>
+                            <td>Solar flare-induced gradient drift instability observed by SuperDARN HF radars</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Chakraborty_Shibaji_SuperDARN_Workshop_2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.2MB)</td>
+                        </tr>
+                        <tr>
+                            <td>Sterne, K.T.</td>
+                            <td>Remote Transmitter Monitoring Project</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/S25-25_Poster.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 927KB)</td>
+                        </tr>
+                        <tr>
+                            <td>Wanner, T.</td>
+                            <td>A SuperDARN-Based Validation method for the REMIX Ionospheric Model by Asessing ExB Convection Patterns</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SuperMAGE_poster_2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 1.6MB)</td>
+                        </tr>
+                        <tr>
+                            <td>van Wyk, D.J.</td>
+                            <td>Enhanced Capabilities of SANSA's SuperDARN Radar: Dual-Channel, Interferometry, and Expanded Space Weather Observations</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SANSA_SuperDARN_2025.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 5.6MB)</td>
+                        </tr>
 
 
 
