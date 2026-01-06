@@ -56,17 +56,6 @@ export default function VenuePage() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="mt-8">
-                                    <button
-                                        disabled
-                                        className="inline-block bg-vt-maroon text-white px-8 py-3 rounded hover:bg-[#FF7A1A] transition-colors cursor-not-allowed text-lg"
-                                    >
-                                        Book Your Room
-                                    </button>
-                                    <p className="mt-4 text-sm text-gray-500">
-                                        Special conference rates not available, regular rates available with hotel room availability.
-                                    </p>
-                                </div>
                             </div>
                         </div>
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
