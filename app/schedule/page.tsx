@@ -190,7 +190,7 @@ export default function SchedulePage() {
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Tuesday 9:00am - 10:30am</td>
-                            <td>Geomagnetic Storsm & Modeling</td>
+                            <td>Geomagnetic Storms & Modeling</td>
                             <td></td>
                         </tr>
                         <tr>
