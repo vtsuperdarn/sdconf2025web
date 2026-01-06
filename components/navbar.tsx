@@ -12,7 +12,7 @@ const imageLoader = ({ src }: { src: string }) => {
 
 const navItems = [
     { href: '/', label: 'Home', external: false },
-    { href: '/venue', label: 'Venue & Lodging', external: false },
+    { href: '/venue', label: 'Venue', external: false },
     { href: '/registration', label: 'Register', external: false },
     { href: '/abstract', label: 'Submit Abstract', external: false },
     { href: '/participants', label: 'Participants', external: false },
