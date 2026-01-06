@@ -504,7 +504,10 @@ export default function SchedulePage() {
                         <tr>
                             <td>Troyer, R.</td>
                             <td>Using oblique, bistatic receptions of SuperDARN signals to measure HF propagation in the auroral and polar cap regions</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                 href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/Troyer_superdarn-2025-meeting-presentation-updated.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.9MB)</td>
                         </tr>
                         <tr className="h-16 text-xl font-semibold">
                             <td>Thursday 3:45pm - 5:05pm</td>
