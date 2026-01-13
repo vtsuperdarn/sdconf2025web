@@ -3,6 +3,11 @@
 
 import { Hero } from '@/components/hero'
 import Link from 'next/link'
+import Image from 'next/image'
+
+const imageLoader = ({ src }: { src: string }) => {
+    return `/workshop/images/${src}`
+}
 
 export default function Home() {
   return (
@@ -13,10 +18,13 @@ export default function Home() {
      {/* Group photo */}
     <section className="py-6 bg-white flex items-center justify-center">
       <div className="w-5/6">
-        <img
-            src="http://vt.superdarn.org/share/data/sd2025_workshop/photos/group_photo_2025.jpeg"
-            alt="Group Photo of SuperDARN 2025 Workshop Attendees"
-         />
+        <Image
+            loader={imageLoader}
+            src="group_photo_2025.jpeg"
+            alt="Group photo of SuperDARN 2025 Workshop attendees"
+            fill
+            className="object-cover"
+            priority />
       </div>
     </section>
 
