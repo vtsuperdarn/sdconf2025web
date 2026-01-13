@@ -233,7 +233,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="bks004.jpg"
+                                src="bks004.jpeg"
                                 alt="Getting a close look at antennas"
                                 fill
                                 className="object-cover"
