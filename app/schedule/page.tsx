@@ -541,7 +541,10 @@ export default function SchedulePage() {
                         <tr>
                             <td>Chisham, G.</td>
                             <td>Using vorticity to characterise meso-scale ionospheric flow variations</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/SD2025_Chisham.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 2.2MB)</td>
                         </tr>
                         <tr>
                             <td>Conti, C.M.</td>
