@@ -15,6 +15,8 @@ export default function Home() {
       <Hero />
 
 
+    <br/>
+    <br/>
      {/* Group photo */}
     <section className="py-6 bg-white flex items-center justify-center">
       <div className="w-5/6">
