@@ -15,18 +15,25 @@ export default function Home() {
       <Hero />
 
 
-    <br/>
-    <br/>
      {/* Group photo */}
     <section className="py-6 bg-white flex items-center justify-center">
       <div className="w-5/6">
-        <Image
+            <img
+                src="http://vt.superdarn.org/share/data/sd2025_workshop/photos/group_photo_2025.jpeg"
+                alt="Group photo of SuperDARN 2025 Workshop attendees"
+            />
+
+{/*     Using this method loads the image at the top of the page in the
+        hero section.  But, why?  
+
+           <Image
             loader={imageLoader}
             src="group_photo_2025.jpeg"
             alt="Group photo of SuperDARN 2025 Workshop attendees"
             fill
             className="object-cover"
             priority />
+*/}
       </div>
     </section>
 
