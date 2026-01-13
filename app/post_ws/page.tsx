@@ -250,7 +250,7 @@ export default function PostwsPage() {
                                 priority />
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Link href="/public/images/bks006.jpg" target="_blank" rel="noopener norferrer">
+                            <Link href="/images/bks006.jpg" target="_blank" rel="noopener norferrer">
                                 <Image
                                     loader={imageLoader}
                                     src="bks006.jpg"
