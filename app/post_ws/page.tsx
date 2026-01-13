@@ -1,5 +1,6 @@
 "use client";
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
 
 const imageLoader = ({ src }: { src: string }) => {
     return `/workshop/images/${src}`
@@ -249,13 +250,15 @@ export default function PostwsPage() {
                                 priority />
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="bks006.jpg"
-                                alt="Checking out the inside of the building"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/public/images/bks006.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="bks006.jpg"
+                                    alt="Checking out the inside of the building"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
 
 
