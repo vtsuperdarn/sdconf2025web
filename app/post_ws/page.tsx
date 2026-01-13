@@ -33,40 +33,48 @@ export default function PostwsPage() {
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="workshop001.jpg"
-                                alt="Ray Greenwald on early SuperDARN"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/workshop001.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="workshop001.jpg"
+                                    alt="Ray Greenwald on early SuperDARN"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="workshop002.jpg"
-                                alt="Lunch at Hotel Roanoke"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/workshop002.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="workshop002.jpg"
+                                    alt="Lunch at Hotel Roanoke"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="workshop003.jpg"
-                                alt="Dr. Babatunde Rabiu"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/workshop003.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="workshop003.jpg"
+                                    alt="Dr. Babatunde Rabiu"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="workshop004.jpg"
-                                alt="Presentation room"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/workshop004.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="workshop004.jpg"
+                                    alt="Presentation room"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                     </div>
                     <h3 className="text-xl font-serif font-semibold text-gray-900 mb-6">
@@ -75,103 +83,125 @@ export default function PostwsPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="cascades001.jpg"
-                                alt="SuperDARNers at Cascades waterfall"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/cascades001.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="cascades001.jpg"
+                                    alt="SuperDARNers at Cascades waterfall"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="cascades002.jpg"
-                                alt="SuperDARNers at Cascades waterfall"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/cascades002.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="cascades002.jpg"
+                                    alt="SuperDARNers at Cascades waterfall"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="cascades003.jpg"
-                                alt="SuperDARNers at Cascades waterfall"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/cascades003.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="cascades003.jpg"
+                                    alt="SuperDARNers at Cascades waterfall"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="smithfield001.jpg"
-                                alt="Gareth Chisham researching history"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/smithfield001.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="smithfield001.jpg"
+                                    alt="Gareth Chisham researching history"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="smithfield002.jpg"
-                                alt="Group at Smithfield Plantation"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/smithfield002.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="smithfield002.jpg"
+                                    alt="Group at Smithfield Plantation"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="lane001.jpg"
-                                alt="Jo introduces the HokieBird"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/lane001.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="lane001.jpg"
+                                    alt="Jo introduces the HokieBird"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="lane002.jpg"
-                                alt="HokieBird trying out cake"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/lane002.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="lane002.jpg"
+                                    alt="HokieBird trying out cake"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="lane003.jpg"
-                                alt="Ray Greenwald shakes hands with HokieBird"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/lane003.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="lane003.jpg"
+                                    alt="Ray Greenwald shakes hands with HokieBird"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="lane004.jpeg"
-                                alt="Gareth Chisham with HokieBird"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/lane004.jpeg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="lane004.jpeg"
+                                    alt="Gareth Chisham with HokieBird"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="lane005.jpeg"
-                                alt="HokieBird mingling"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/lane005.jpeg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="lane005.jpeg"
+                                    alt="HokieBird mingling"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="lane006.jpeg"
-                                alt="Virginia Tech SuperDARN family with HokieBird"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/lane006.jpeg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                        src="lane006.jpeg"
+                                    alt="Virginia Tech SuperDARN family with HokieBird"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                     </div>
 
@@ -180,22 +210,26 @@ export default function PostwsPage() {
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="banquet001.jpeg"
-                                alt="New Standard plays for banquet"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/banquet001.jpeg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="banquet001.jpeg"
+                                    alt="New Standard plays for banquet"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="banquet002.jpeg"
-                                alt="Finale of performance at banquet"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/banquet002.jpeg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="banquet002.jpeg"
+                                    alt="Finale of performance at banquet"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
 
                     </div>
@@ -205,49 +239,59 @@ export default function PostwsPage() {
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="bks001.jpg"
-                                alt="Learning about tobacco picking eqiupment"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/bks001.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="bks001.jpg"
+                                    alt="Learning about tobacco picking eqiupment"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="bks002.jpg"
-                                alt="Examining dried tobacco leaves"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/bks002.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="bks002.jpg"
+                                    alt="Examining dried tobacco leaves"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="bks003.jpg"
-                                alt="SuperDARNers at the Blackstone radar site"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/bks003.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="bks003.jpg"
+                                    alt="SuperDARNers at the Blackstone radar site"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="bks004.jpeg"
-                                alt="Getting a close look at antennas"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/bks004.jpeg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="bks004.jpeg"
+                                    alt="Getting a close look at antennas"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                            <Image
-                                loader={imageLoader}
-                                src="bks005.jpg"
-                                alt="Mike Ruohoniemi in discussions at the site"
-                                fill
-                                className="object-cover"
-                                priority />
+                            <Link href="/images/bks005.jpg" target="_blank" rel="noopener norferrer">
+                                <Image
+                                    loader={imageLoader}
+                                    src="bks005.jpg"
+                                    alt="Mike Ruohoniemi in discussions at the site"
+                                    fill
+                                    className="object-cover"
+                                    priority />
+                            </Link>
                         </div>    
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Link href="/images/bks006.jpg" target="_blank" rel="noopener norferrer">
