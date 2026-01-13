@@ -85,7 +85,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="cascades002.HEIC"
+                                src="cascades002.jpg"
                                 alt="SuperDARNers at Cascades waterfall"
                                 fill
                                 className="object-cover"
@@ -94,7 +94,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="cascades003.HEIC"
+                                src="cascades003.jpg"
                                 alt="SuperDARNers at Cascades waterfall"
                                 fill
                                 className="object-cover"
@@ -130,7 +130,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="lane002.HEIC"
+                                src="lane002.jpg"
                                 alt="HokieBird trying out cake"
                                 fill
                                 className="object-cover"
@@ -148,7 +148,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="lane004.jpg"
+                                src="lane004.jpeg"
                                 alt="Gareth Chisham with HokieBird"
                                 fill
                                 className="object-cover"
@@ -157,7 +157,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="lane005.jpg"
+                                src="lane005.jpeg"
                                 alt="HokieBird mingling"
                                 fill
                                 className="object-cover"
@@ -166,7 +166,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="lane006.jpg"
+                                src="lane006.jpeg"
                                 alt="Virginia Tech SuperDARN family with HokieBird"
                                 fill
                                 className="object-cover"
@@ -181,7 +181,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="banquet001.jpg"
+                                src="banquet001.jpeg"
                                 alt="New Standard plays for banquet"
                                 fill
                                 className="object-cover"
@@ -190,7 +190,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="banquet002.jpg"
+                                src="banquet002.jpeg"
                                 alt="Finale of performance at banquet"
                                 fill
                                 className="object-cover"
@@ -215,7 +215,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="bks002.HEIC"
+                                src="bks002.jpg"
                                 alt="Examining dried tobacco leaves"
                                 fill
                                 className="object-cover"
@@ -233,7 +233,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="bks004.HEIC"
+                                src="bks004.jpg"
                                 alt="Getting a close look at antennas"
                                 fill
                                 className="object-cover"
@@ -242,7 +242,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="bks005.HEIC"
+                                src="bks005.jpg"
                                 alt="Mike Ruohoniemi in discussions at the site"
                                 fill
                                 className="object-cover"
@@ -251,7 +251,7 @@ export default function PostwsPage() {
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                             <Image
                                 loader={imageLoader}
-                                src="bks006.HEIC"
+                                src="bks006.jpg"
                                 alt="Checking out the inside of the building"
                                 fill
                                 className="object-cover"
