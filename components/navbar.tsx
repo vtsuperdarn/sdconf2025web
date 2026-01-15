@@ -17,7 +17,7 @@ const navItems = [
     { href: '/abstract', label: 'Submit Abstract', external: false },
     { href: '/participants', label: 'Participants', external: false },
     { href: '/travel', label: 'Travel', external: false },
-    { href: '/schedule', label: 'Schedule', external: false },
+    { href: '/schedule', label: 'Presentations', external: false },
     { href: '/post_ws', label: 'Post Workshop', external: false }
 ]
 
