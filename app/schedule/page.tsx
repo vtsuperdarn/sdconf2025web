@@ -15,10 +15,6 @@ export default function SchedulePage() {
 
                {/* Presentations */}
                 <section className="mb-12">
-                    <h1 className="text-3xl font-serif font-bold text-gray-900 mb-6">
-                        Presentations
-                    </h1>
-
                     <table className="w-full">
                         <thead>
                         <tr>
