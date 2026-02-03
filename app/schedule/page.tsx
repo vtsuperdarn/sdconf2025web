@@ -457,7 +457,10 @@ export default function SchedulePage() {
                         <tr>
                             <td>Nishitani, N.</td>
                             <td>SuperDARN HOP radars observation of Ionospheric convection associated with low-latitude auroras</td>
-                            <td>.pdf (size TBD)</td>
+                            <td><a
+                                href="http://vt.superdarn.org/share/data/sd2025_workshop/presentations/Thursday/pre2506b_sd_website.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"><strong> .pdf </strong></a> (size 6.3MB)</td>
                         </tr>
                         <tr>
                             <td>Beser, K.</td>
